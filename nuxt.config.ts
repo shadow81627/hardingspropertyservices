@@ -2,11 +2,13 @@ import { defineNuxtConfig } from 'nuxt3'
 
 export default defineNuxtConfig({
   meta: {
-    'title': 'Hardings Property Services',
-    'description': 'Hardings Property Services',
-    'apple-mobile-web-app-status-bar': 'black',
-    'theme-color': 'black',
-    'link': [
+    title: 'Hardings Property Services',
+    meta: [
+      { name: 'description', content: 'Hardings Property Services' },
+      { name: 'apple-mobile-web-app-status-bar', content: 'black' },
+      { name: 'theme-color', content: 'black' },
+    ],
+    link: [
       { rel: 'manifest', href: '/manifest.json' },
     ],
   },
