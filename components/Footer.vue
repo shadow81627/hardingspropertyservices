@@ -5,8 +5,9 @@
     justify-center
     gap-3
   >
-    <!-- <NuxtLink i-carbon-campsite to="/" /> -->
-    <!-- <a i-carbon-logo-github href="https://github.com/shadow81627/hardingspropertyservices" target="__blank" /> -->
+    <a i-carbon-logo-instagram href="https://www.instagram.com/hardingspropertyservices/" target="__blank" aria-label="instagram">
+      instagram
+    </a>
     <DarkToggle />
     <small>
       <a href="https://daim.dev" target="__blank">Site by Damien Robinson</a>
