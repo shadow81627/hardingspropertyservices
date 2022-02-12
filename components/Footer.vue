@@ -5,12 +5,7 @@
     justify-center
     gap-3
   >
-    <a i-carbon-logo-instagram href="https://www.instagram.com/hardingspropertyservices/" target="__blank" aria-label="instagram">
-      instagram
-    </a>
+    <a i-carbon-logo-instagram href="https://www.instagram.com/hardingspropertyservices/" target="__blank" aria-label="instagram" />
     <DarkToggle />
-    <small>
-      <a href="https://daim.dev" target="__blank">Site by Damien Robinson</a>
-    </small>
   </div>
 </template>
