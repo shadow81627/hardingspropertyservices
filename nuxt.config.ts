@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     ],
     link: [
       { rel: 'manifest', href: '/manifest.json' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ],
   },
   buildModules: [
