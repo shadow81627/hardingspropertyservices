@@ -3,6 +3,7 @@ import { defineNuxtConfig } from 'nuxt3'
 export default defineNuxtConfig({
   meta: {
     title: 'Hardings Property Services',
+    description: 'Hardings Property Services',
   },
   buildModules: [
     '@vueuse/nuxt',
