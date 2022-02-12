@@ -1,5 +1,7 @@
 {
   "private": true,
+  "name": "hardingspropertyservices",
+  "packageManager": "yarn@3.1.1",
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",
