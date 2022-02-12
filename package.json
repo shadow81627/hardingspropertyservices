@@ -5,9 +5,11 @@
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "lhci:autorun": "lhci autorun"
   },
   "dependencies": {
+    "@lhci/cli": "0.9.0",
     "pinia": "^2.0.9"
   },
   "devDependencies": {
