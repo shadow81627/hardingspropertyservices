@@ -3,4 +3,7 @@ node_modules
 dist
 .output
 .nuxt
+nuxt.d.ts
 .env
+
+.vercel
