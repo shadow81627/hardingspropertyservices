@@ -1,8 +1,10 @@
 <template>
-  <main class="py-20 px-10 text-center">
-    <NuxtPage />
-    <Footer />
-  </main>
+  <Html lang="en-AU">
+    <main class="py-20 px-10 text-center">
+      <NuxtPage />
+      <Footer />
+    </main>
+  </Html>
 </template>
 
 <style>
