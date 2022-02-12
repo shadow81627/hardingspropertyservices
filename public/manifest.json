@@ -1,0 +1,9 @@
+
+{
+  "name":"Hardings Property Services",
+  "start_url":"/",
+  "display":"standalone",
+  "background_color":"#5900b3",
+  "theme_color":"black",
+  "description":"Hardings Property Services"
+}
