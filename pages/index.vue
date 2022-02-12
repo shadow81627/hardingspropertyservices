@@ -1,6 +1,7 @@
 <template>
   <div>
-    <Logos mb-6 />
+    <!-- <Logos mb-6 /> -->
+    <h1>Hardings Property Services</h1>
     <Suspense>
       <PageView />
       <template #fallback>
@@ -9,6 +10,6 @@
         </div>
       </template>
     </Suspense>
-    <InputEntry />
+    <!-- <InputEntry /> -->
   </div>
 </template>
