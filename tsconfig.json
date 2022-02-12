@@ -1,3 +1,8 @@
 {
+  "compilerOptions": {
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+  },
   "extends": "./.nuxt/tsconfig.json"
 }
