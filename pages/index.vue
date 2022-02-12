@@ -5,7 +5,7 @@
       Hardings Property Services
     </h1>
 
-    <ul class="list-disc">
+    <ul class="list-none">
       <li>Property maintenance</li>
       <li>Lawn mowing</li>
       <li>General handyman services</li>
