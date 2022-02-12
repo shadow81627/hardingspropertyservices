@@ -1,6 +1,5 @@
 <template>
   <div
-    text="gray4"
     m-5
     flex
     justify-center
