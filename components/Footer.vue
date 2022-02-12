@@ -6,7 +6,7 @@
     justify-center
     gap-3
   >
-    <NuxtLink i-carbon-campsite to="/" />
+    <!-- <NuxtLink i-carbon-campsite to="/" /> -->
     <!-- <a i-carbon-logo-github href="https://github.com/shadow81627/hardingspropertyservices" target="__blank" /> -->
     <DarkToggle />
     <small>
