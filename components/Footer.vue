@@ -7,6 +7,5 @@
   >
     <a i-carbon-logo-instagram href="https://www.instagram.com/hardingspropertyservices/" target="__blank" aria-label="instagram" />
     <a i-carbon-logo-facebook href="https://www.facebook.com/hardingspropertyservices" target="__blank" aria-label="facebook" />
-    <DarkToggle />
   </div>
 </template>
