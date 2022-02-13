@@ -7,7 +7,7 @@ function toggleDark() {
 </script>
 
 <template>
-  <button class="!outline-none" :aria-label="`toggle ${toggle} mode`" title="`toggle ${toggle} mode`" @click="toggleDark()">
+  <button class="!outline-none" :aria-label="`toggle ${toggle} mode`" :title="`toggle ${toggle} mode`" @click="toggleDark()">
     <div class="dark:i-carbon-moon i-carbon-sun" />
   </button>
 </template>
