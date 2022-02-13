@@ -1,10 +1,13 @@
 import { defineNuxtConfig } from 'nuxt3'
 
+const APP_NAME = 'Harding\'s Property Services'
+
 export default defineNuxtConfig({
+  publicRuntimeConfig: { APP_NAME },
   meta: {
-    title: 'Hardings Property Services',
+    title: APP_NAME,
     meta: [
-      { name: 'description', content: 'Hardings Property Services' },
+      { name: 'description', content: APP_NAME },
       { name: 'apple-mobile-web-app-status-bar', content: 'black' },
       { name: 'theme-color', content: 'black' },
     ],

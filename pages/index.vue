@@ -1,8 +1,7 @@
 <template>
   <div class="text-center">
-    <!-- <Logos mb-6 /> -->
     <h1 class="text-2xl font-bold leading-7 sm:text-3xl sm:truncate">
-      Hardings Property Services
+      {{ $config.APP_NAME }}
     </h1>
 
     <ul class="list-none">
@@ -16,14 +15,5 @@
     <p>
       Servicing the local Beaudesert and surrounding areas
     </p>
-    <!-- <Suspense>
-      <PageView />
-      <template #fallback>
-        <div op50 italic>
-          <span animate-pulse>Loading...</span>
-        </div>
-      </template>
-    </Suspense> -->
-    <!-- <InputEntry /> -->
   </div>
 </template>
