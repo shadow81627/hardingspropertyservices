@@ -3,7 +3,13 @@ import { defineNuxtConfig } from 'nuxt3'
 const APP_NAME = 'Harding\'s Property Services'
 
 export default defineNuxtConfig({
-  publicRuntimeConfig: { APP_NAME },
+  publicRuntimeConfig: {
+    APP_NAME,
+    plausible: {
+      domain: process.env.PLAUSIBLE_DOMAIN ?? 'www.hardingspropertyservices.com',
+      apiHost: process.env.PLAUSIBLE_API_HOST ?? 'https://plausible.daim.dev',
+    },
+  },
   meta: {
     title: APP_NAME,
     meta: [
@@ -16,6 +22,9 @@ export default defineNuxtConfig({
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ],
   },
+  modules: [
+    'vue-plausible',
+  ],
   buildModules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
