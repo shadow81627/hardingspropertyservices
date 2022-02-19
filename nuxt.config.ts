@@ -24,7 +24,7 @@ export default defineNuxtConfig({
   },
   modules: [
     'vue-plausible',
-    '@formkit/nuxt',
+    // '@formkit/nuxt',
   ],
   buildModules: [
     '@vueuse/nuxt',
