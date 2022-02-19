@@ -1,5 +1,5 @@
 <template>
-  <section class="mb-40">
+  <section class="mb-5">
     <div class="text-center py-24 px-6">
       <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
         Harding's
