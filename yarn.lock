@@ -497,6 +497,111 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@formkit/core@npm:1.0.0-beta.2":
+  version: 1.0.0-beta.2
+  resolution: "@formkit/core@npm:1.0.0-beta.2"
+  dependencies:
+    "@formkit/utils": 1.0.0-beta.2
+  checksum: 746b0b7241f2569735d2e5915fca168909e63881e60c63db426b3ddb68642aaeb4d30ba54edd0d4d4dc811c9be093a224ef7fde9e6508c5055b1ba8f06aec894
+  languageName: node
+  linkType: hard
+
+"@formkit/dev@npm:1.0.0-beta.2":
+  version: 1.0.0-beta.2
+  resolution: "@formkit/dev@npm:1.0.0-beta.2"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.2
+    "@formkit/utils": 1.0.0-beta.2
+  checksum: 9af504ffaa5a0689011258c1bfaf1039b4db11e8785bacff9ec3e899daf1b77883090bbb1d070f9ccbfd9894d9ff5cf36352e4dd8b829d191d710e47ba32a516
+  languageName: node
+  linkType: hard
+
+"@formkit/i18n@npm:1.0.0-beta.2":
+  version: 1.0.0-beta.2
+  resolution: "@formkit/i18n@npm:1.0.0-beta.2"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.2
+    "@formkit/utils": 1.0.0-beta.2
+    "@formkit/validation": 1.0.0-beta.2
+  checksum: 15675de7aa3e203262475d3fe64b2ce29182d772892ccd8132dbb56425996c20c0475a08a8ba5534ef46bed0ef14d4e3df0811c9a29b918a6b1091e18e2ca804
+  languageName: node
+  linkType: hard
+
+"@formkit/inputs@npm:1.0.0-beta.2":
+  version: 1.0.0-beta.2
+  resolution: "@formkit/inputs@npm:1.0.0-beta.2"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.2
+  checksum: b81380c69c159eaa488b67f01766acdf037faa612f5f9b6d06eab42eb144b8d7dc1795d0545bfdfaa34bf4ef0b3eb52919ac18204a9c29c085394c5d7ad4ed3e
+  languageName: node
+  linkType: hard
+
+"@formkit/nuxt@npm:1.0.0-beta.2":
+  version: 1.0.0-beta.2
+  resolution: "@formkit/nuxt@npm:1.0.0-beta.2"
+  dependencies:
+    "@formkit/vue": 1.0.0-beta.2
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
+  checksum: 11658781a3ff411740e5496087c1163a2adfa3f16969771990ef2a658f023e19349da7ff492fe5a57bd41592d9bbcda4bc8eb32279f7a3ce74691e184c4c5706
+  languageName: node
+  linkType: hard
+
+"@formkit/observer@npm:1.0.0-beta.2":
+  version: 1.0.0-beta.2
+  resolution: "@formkit/observer@npm:1.0.0-beta.2"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.2
+    "@formkit/utils": 1.0.0-beta.2
+  checksum: 2fd2b987119f562413c2c1445cb5626ca2c043f9dab91fd1a558fb7ba0340c4581ed46808ee0dadc13139e5ecb1aa0ee430eaf46020278483ee56b30f1946562
+  languageName: node
+  linkType: hard
+
+"@formkit/rules@npm:1.0.0-beta.2":
+  version: 1.0.0-beta.2
+  resolution: "@formkit/rules@npm:1.0.0-beta.2"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.2
+    "@formkit/utils": 1.0.0-beta.2
+    "@formkit/validation": 1.0.0-beta.2
+  checksum: eb2818309fee0c6e70283bf638d09f2ea66be9241571e97066f53519c4624494a9aea354baa486ab05d5b75cf0f9c88d023692047d155a88b016df23d084d2e7
+  languageName: node
+  linkType: hard
+
+"@formkit/utils@npm:1.0.0-beta.2":
+  version: 1.0.0-beta.2
+  resolution: "@formkit/utils@npm:1.0.0-beta.2"
+  checksum: a8b66206a6fd658db1e7271d50b22844a0f8801266c047285a5d73ec8f3db91b48147c47bfe1a491bae254c7bc5a56e472ee4430398078be919fe3929c45ccb5
+  languageName: node
+  linkType: hard
+
+"@formkit/validation@npm:1.0.0-beta.2":
+  version: 1.0.0-beta.2
+  resolution: "@formkit/validation@npm:1.0.0-beta.2"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.2
+    "@formkit/observer": 1.0.0-beta.2
+  checksum: b608e52c5d358729f6cba0e3c18d5ee3ef82672aa5a9d614d3de9bd3d67616812c3ed9f2c3f6986ed14facdbd187c51ee7f6d76e2693f4ee24952b892e141d7c
+  languageName: node
+  linkType: hard
+
+"@formkit/vue@npm:1.0.0-beta.2":
+  version: 1.0.0-beta.2
+  resolution: "@formkit/vue@npm:1.0.0-beta.2"
+  dependencies:
+    "@formkit/core": 1.0.0-beta.2
+    "@formkit/dev": 1.0.0-beta.2
+    "@formkit/i18n": 1.0.0-beta.2
+    "@formkit/inputs": 1.0.0-beta.2
+    "@formkit/observer": 1.0.0-beta.2
+    "@formkit/rules": 1.0.0-beta.2
+    "@formkit/utils": 1.0.0-beta.2
+    "@formkit/validation": 1.0.0-beta.2
+  peerDependencies:
+    vue: ^3.2.1
+  checksum: eb325f91ee76664fb86f8f37312726c1f28cd2191862d6e4e86ae45a084deffd9f6b6c41b9a2fda269b04b03a2a34aa28d610aa472117c1a320a83ca205c2870
+  languageName: node
+  linkType: hard
+
 "@gar/promisify@npm:^1.0.1":
   version: 1.1.2
   resolution: "@gar/promisify@npm:1.1.2"
@@ -5393,6 +5498,7 @@ __metadata:
   resolution: "hardingspropertyservices@workspace:."
   dependencies:
     "@antfu/eslint-config": ^0.14.2
+    "@formkit/nuxt": 1.0.0-beta.2
     "@iconify-json/carbon": ^1.0.12
     "@iconify-json/twemoji": ^1.0.2
     "@lhci/cli": 0.9.0

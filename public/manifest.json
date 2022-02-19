@@ -1,11 +1,11 @@
 
 {
-  "name":"Hardings Property Services",
+  "name":"Harding's Property Services",
   "start_url":"/",
   "display":"standalone",
   "background_color":"#5900b3",
   "theme_color":"black",
-  "description":"Hardings Property Services",
+  "description":"Harding's Property Services",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
