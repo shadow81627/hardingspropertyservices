@@ -2,8 +2,15 @@
   <Html lang="en-AU">
     <Script type="application/ld+json" :children="jsonLD" />
     <div class="min-h-screen flex flex-col justify-between">
-      <Navigation />
-      <main class="px-10 mb-auto">
+      <nav class="relative w-full flex flex-wrap items-center justify-between py-3 shadow-lg">
+        <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+          <div class="container-fluid">
+            &nbsp;
+          </div>
+          <DarkToggle />
+        </div>
+      </nav>
+      <main class="py-20 px-10 mb-auto">
         <NuxtPage />
         <Footer />
       </main>
