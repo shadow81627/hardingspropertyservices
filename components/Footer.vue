@@ -5,7 +5,26 @@
     justify-center
     gap-3
   >
-    <a i-carbon-logo-instagram href="https://www.instagram.com/hardingspropertyservices/" target="__blank" aria-label="instagram" />
-    <a i-carbon-logo-facebook href="https://www.facebook.com/hardingspropertyservices" target="__blank" aria-label="facebook" />
+    <a
+      i-carbon-logo-instagram
+      href="https://www.instagram.com/hardingspropertyservices/"
+      target="__blank"
+      aria-label="Instagram"
+      title="Instagram"
+    />
+    <a
+      i-carbon-logo-facebook
+      href="https://www.facebook.com/hardingspropertyservices"
+      target="__blank"
+      aria-label="Facebook"
+      title="Facebook"
+    />
+    <a
+      i-carbon-logo-google
+      href="https://g.co/kgs/X69CKJ"
+      target="__blank"
+      aria-label="Google"
+      title="Google"
+    />
   </div>
 </template>
