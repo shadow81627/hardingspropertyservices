@@ -2,6 +2,6 @@
   <div>
     <HeadingSection />
     <Gallery />
-    <!-- <ContactForm /> -->
+    <ContactForm />
   </div>
 </template>
