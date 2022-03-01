@@ -27,7 +27,7 @@
           <h2 class="font-medium leading-tight text-4xl mt-0 mb-4">
             Contact
           </h2>
-          <FormKit class="d-none" name="_gotcha" />
+          <FormKit class="d-none" style="display: none" name="_gotcha" />
           <FormKit
             label-class="form-label inline-block mb-2 text-xl"
             input-class="form-control
