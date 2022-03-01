@@ -5,6 +5,7 @@ const APP_NAME = 'Harding\'s Property Services'
 export default defineNuxtConfig({
   publicRuntimeConfig: {
     APP_NAME,
+    STRAPI_URL: process.env.STRAPI_URL ?? 'https://strapi.daim.dev',
     plausible: {
       domain: process.env.PLAUSIBLE_DOMAIN ?? 'www.hardingspropertyservices.com',
       apiHost: process.env.PLAUSIBLE_API_HOST ?? 'https://plausible.daim.dev',
@@ -31,6 +32,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@unocss/nuxt',
     '@pinia/nuxt',
+    '@nuxtjs/strapi',
   ],
   vueuse: {
     ssrHandlers: true,
