@@ -32,7 +32,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@unocss/nuxt',
     '@pinia/nuxt',
-    '@nuxtjs/strapi',
+    // '@nuxtjs/strapi',
   ],
   vueuse: {
     ssrHandlers: true,
