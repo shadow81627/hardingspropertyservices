@@ -1,11 +1,11 @@
 <template>
   <section
-    class="text-center container-fluid flex flex-wrap items-center justify-between flex-col"
+    class="container-fluid flex flex-wrap items-center justify-between flex-col"
   >
     <div class="mb-3 xl:w-96">
       <div v-if="success" class="flex items-center flex-col">
         <div class="text-green-600 i-carbon-checkmark-filled text-8xl" />
-        <h2 class="font-medium leading-tight text-4xl mt-0 mb-4">
+        <h2 class="font-medium leading-tight text-4xl mt-0 mb-4" text-center>
           Thanks for getting in touch. We will contact you soon.
         </h2>
       </div>
@@ -22,9 +22,11 @@
         }"
         @submit="submit"
       >
-        <Spinner v-if="loading" class="mb-4" />
+        <div v-if="loading" text-center mb-4>
+          <Spinner />
+        </div>
         <template v-else>
-          <h2 class="font-medium leading-tight text-4xl mt-0 mb-4">
+          <h2 class="text-center font-medium leading-tight text-4xl mt-0 mb-4">
             Contact
           </h2>
           <FormKit class="d-none" style="display: none" name="_gotcha" />
