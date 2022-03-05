@@ -5,7 +5,7 @@
         Wayne Harding has a lifelong passion for home improvement and landscaping. He enjoys doing reno, gardening and DIY projects in his own home, and has worked professionally in this area for over 30 years. After decades of working these various building, mowing, turfing and hardware jobs, he has decided to use this knowledge to branch out and grow his own business. Wayne provides a range of property services to Beaudesert and surrounding areas:
       </p>
 
-      <ul list-disc list-inside py-5 flex justify-between flex-wrap>
+      <ul list-disc list-inside py-2 flex justify-between flex-wrap>
         <li md:p-2 flex-auto w-full md:w-auto>
           Property maintenance
         </li>
