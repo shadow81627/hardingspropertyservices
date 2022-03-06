@@ -1,5 +1,5 @@
 <template>
-  <section container px-5 py-2 mx-auto lg:pt-12 lg:px-32>
+  <section container px-5 py-2 mx-auto lg:pt-12 lg:px-32 text-center md:text-left>
     <div class="p-8 rounded-lg bg-gray-100 text-gray-700" flex md:flex-row flex-col>
       <h2 class="font-semibold text-3xl">
         Have an Enquiry?
