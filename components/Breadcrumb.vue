@@ -19,7 +19,7 @@ export default {
   computed: {
     items() {
       const route = useRoute()
-      const router = useRouter()
+      // const router = useRouter()
       return useSplit(route.path, '/')
         .filter(Boolean)
         .map(function(item) {
@@ -28,7 +28,7 @@ export default {
         // https://stackoverflow.com/a/47968178
         }, { acc: '' })
       // https://dev.to/lukeocodes/breadcrumbs-in-nuxt-5f2m
-        .filter(({ url }) => router.resolve(url).name !== null)
+        // .filter(({ url }) => router.resolve(url).name !== null)
     },
   },
 }
