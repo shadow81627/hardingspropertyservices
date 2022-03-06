@@ -5,10 +5,11 @@
         <div v-for="{src, title} in gallery" :key="src" class="flex flex-wrap md:w-1/3 sm:w-full">
           <div class="w-full m-1 md:m-2" relative overflow-hidden rounded-lg>
             <img
-              alt="gallery" class="block object-cover object-center w-full h-full"
+              class="block object-cover object-center w-full h-full"
               :src="src"
+              :alt="title"
             >
-            <div v-if="title" class="absolute w-full py-2 bottom-0 inset-x-0 bg-gray-500 text-center leading-4" opacity-75 text-white>
+            <div v-if="title" class="absolute w-full py-4 bottom-0 inset-x-0 bg-gray-500 text-center leading-4" text-lg opacity-75 text-white>
               {{ title }}
             </div>
           </div>
