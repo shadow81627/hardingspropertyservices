@@ -14,7 +14,7 @@
     </HeadingSection>
     <About class="mb-24" />
     <Gallery :gallery="gallery" />
-    <ContactForm class="mt-24" />
+    <ContactSection class="mt-24" />
   </div>
 </template>
 
