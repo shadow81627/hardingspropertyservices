@@ -19,7 +19,7 @@ export default {
     const { data: content } = await useFetch<Strapi4Response>('/api/home', { baseURL: config.STRAPI_URL, params: { populate: 'meta' } })
     const gallery = [
       { src: '/img/AF1QipM6lEqzYS3JTm-Em6ulliuclqJZ5uE1oh5mUcL_=s1524-k-no.jpg' },
-      { src: '/img/AF1QipPiYkY-IgxdCEYDcV6E-0ZdvqU5J1SBcmXaKvUi=s1160-k-no.jpg', title: 'Lounge room paint refresh' },
+      { src: '/img/AF1QipPiYkY-IgxdCEYDcV6E-0ZdvqU5J1SBcmXaKvUi=s1160-k-no.jpg', title: 'Lounge room paint refresh', url: '/gallery/lounge-room-paint-refresh' },
       { src: '/img/AF1QipP0e0BPg9clQU6UcTfHihp2N_ifzkbCkT69HN_4=s1218-k-no.jpg', title: 'Sunroom reno', url: '/gallery/sunroom-reno' },
     ]
     return {
