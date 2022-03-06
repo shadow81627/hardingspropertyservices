@@ -33,6 +33,7 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@pinia/nuxt',
     // '@nuxtjs/strapi',
+    'nuxt-lodash',
   ],
   vueuse: {
     ssrHandlers: true,
