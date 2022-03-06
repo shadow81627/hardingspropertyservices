@@ -16,7 +16,7 @@ module.exports = {
         'unused-css-rules': WARN,
         'non-composited-animations': WARN,
         'errors-in-console': WARN,
-        'canonical': WARN,
+        canonical: WARN,
         'valid-source-maps': WARN,
       },
     },

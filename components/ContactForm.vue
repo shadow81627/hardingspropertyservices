@@ -18,7 +18,8 @@
         :errors="errors"
         message-class="text-red-600 text-lg"
         :submit-attrs="{
-          inputClass: 'my-2 mb-2 w-full inline-block px-6 py-2.5 bg-green-600 text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out',
+          inputClass:
+            'my-2 mb-2 w-full inline-block px-6 py-2.5 bg-green-600 text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out',
         }"
         @submit="submit"
       >
@@ -151,30 +152,27 @@ export default {
   },
   methods: {
     async submit(data) {
-      const errorMessage = 'There was a problem submitting your form, please try again.'
+      const errorMessage =
+        'There was a problem submitting your form, please try again.'
       try {
         const response = await fetch('https://formspree.io/f/meqnglwg', {
           method: 'POST',
           body: JSON.stringify(data),
           headers: {
-            'Accept': 'application/json',
+            Accept: 'application/json',
             'Content-Type': 'application/json',
           },
         })
         if (response.ok) {
           this.success = true
-        }
-        else {
+        } else {
           response.json().then((data) => {
             if (Object.hasOwn(data, 'errors'))
-              this.errors = data.errors.map(error => error.message)
-
-            else
-              this.errors = [errorMessage]
+              this.errors = data.errors.map((error) => error.message)
+            else this.errors = [errorMessage]
           })
         }
-      }
-      catch (error) {
+      } catch (error) {
         this.errors = [errorMessage]
       }
     },

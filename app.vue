@@ -1,6 +1,6 @@
 <template>
   <Html lang="en-AU">
-    <Script type="application/ld+json" :children="jsonLD" />
+    <!-- <Script type="application/ld+json" :children="jsonLD" /> -->
     <div class="min-h-screen flex flex-col justify-between">
       <Navigation />
       <main class="px-10 mb-auto">
@@ -10,7 +10,9 @@
       <footer class="text-center lg:text-left">
         <div class="text-center p-6">
           <small>
-            <a href="https://daim.dev" target="__blank">Site by Damien Robinson</a>
+            <a href="https://daim.dev" target="__blank"
+              >Site by Damien Robinson</a
+            >
           </small>
         </div>
       </footer>
@@ -23,64 +25,64 @@ const config = useRuntimeConfig()
 const jsonLD = JSON.stringify({
   '@context': 'https://schema.org/',
   '@type': 'Service',
-  'serviceType': 'Handyman',
-  'provider': {
+  serviceType: 'Handyman',
+  provider: {
     '@type': 'LocalBusiness',
-    'name': config.APP_NAME,
+    name: config.APP_NAME,
     // 'telephone': '0487 950 940',
-    'url': 'https://hardingspropertyservices.com.au',
-    'sameAs': [
+    url: 'https://hardingspropertyservices.com.au',
+    sameAs: [
       'https://www.instagram.com/hardingspropertyservices/',
       'https://www.facebook.com/hardingspropertyservices',
     ],
   },
-  'areaServed': {
+  areaServed: {
     '@type': 'City',
-    'name': ['Beaudesert', 'Kooralbyn'],
+    name: ['Beaudesert', 'Kooralbyn'],
   },
-  'hasOfferCatalog': {
+  hasOfferCatalog: {
     '@type': 'OfferCatalog',
-    'name': 'Property services',
-    'itemListElement': [
-
+    name: 'Property services',
+    itemListElement: [
       {
         '@type': 'Offer',
-        'itemOffered': {
+        itemOffered: {
           '@type': 'Service',
-          'name': 'Property maintenance',
+          name: 'Property maintenance',
         },
       },
       {
         '@type': 'Offer',
-        'itemOffered': {
+        itemOffered: {
           '@type': 'Service',
-          'name': 'Lawn mowing',
+          name: 'Lawn mowing',
         },
       },
       {
         '@type': 'Offer',
-        'itemOffered': {
+        itemOffered: {
           '@type': 'Service',
-          'name': 'General handyman services',
+          name: 'General handyman services',
         },
       },
       {
         '@type': 'Offer',
-        'itemOffered': {
+        itemOffered: {
           '@type': 'Service',
-          'name': 'Odd jobs',
+          name: 'Odd jobs',
         },
       },
       {
         '@type': 'Offer',
-        'itemOffered': {
+        itemOffered: {
           '@type': 'Service',
-          'name': 'Flat pack assembly',
+          name: 'Flat pack assembly',
         },
       },
     ],
   },
 })
+return jsonLD
 </script>
 
 <style>
