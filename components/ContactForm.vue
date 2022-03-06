@@ -26,9 +26,6 @@
           <Spinner />
         </div>
         <template v-else>
-          <h2 class="text-center font-medium leading-tight text-4xl mt-0 mb-4">
-            Contact
-          </h2>
           <FormKit class="d-none" style="display: none" name="_gotcha" />
           <FormKit
             label-class="form-label inline-block mb-2 text-xl"

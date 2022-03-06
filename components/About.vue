@@ -24,7 +24,9 @@
       </ul>
 
       <p>
-        If you’re in need of these services in your home, or you have an enquiry about a different odd job that needs doing, don’t hesitate to use the contact form on our website. We will get back to you with a quote as soon as we can.
+        If you’re in need of these services in your home, or you have an enquiry about a different odd job that needs doing, don’t hesitate to use the <NuxtLink to="/contact" class="text-green-600 hover:text-green-700 transition duration-300 ease-in-out">
+          contact form on our website
+        </NuxtLink>. We will get back to you with a quote as soon as we can.
       </p>
     </div>
   </section>
