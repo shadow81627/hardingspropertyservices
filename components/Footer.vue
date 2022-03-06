@@ -1,10 +1,5 @@
 <template>
-  <div
-    m-5
-    flex
-    justify-center
-    gap-3
-  >
+  <div m-5 flex justify-center gap-3>
     <a
       i-carbon-logo-instagram
       href="https://www.instagram.com/hardingspropertyservices/"
