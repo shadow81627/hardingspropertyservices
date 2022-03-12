@@ -10,36 +10,39 @@ import type { Strapi4Response } from '@nuxtjs/strapi'
 export default {
   async setup() {
     const config = useRuntimeConfig()
-    const { data: content } = await useFetch<Strapi4Response>(
+    const { data: gallery } = await useFetch<Strapi4Response>(
       '/api/galleries',
       {
         baseURL: config.STRAPI_URL,
-        params: { populate: '*' },
+        params: {
+          populate: '*',
+          'sort[0]': 'category.slug',
+          'sort[1]': 'order',
+        },
         server: false,
+        transform({ data }) {
+          const result = data.map(
+            ({
+              attributes: {
+                image: {
+                  data: {
+                    attributes: { url },
+                  },
+                },
+                title,
+              },
+            }) => ({
+              title,
+              src: url,
+            }),
+          )
+          return result
+        },
       },
     )
     return {
-      content,
+      gallery,
     }
-  },
-  computed: {
-    gallery() {
-      return this.content?.data?.map(
-        ({
-          attributes: {
-            image: {
-              data: {
-                attributes: { url },
-              },
-            },
-            title,
-          },
-        }) => ({
-          title,
-          src: url,
-        }),
-      )
-    },
   },
 }
 </script>
