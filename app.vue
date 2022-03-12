@@ -1,5 +1,6 @@
 <template>
   <Html lang="en-AU">
+    <Script src="/js/polyfills.js" />
     <!-- <Script type="application/ld+json" :children="jsonLD" /> -->
     <div class="min-h-screen flex flex-col justify-between">
       <Navigation />

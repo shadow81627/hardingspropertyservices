@@ -1,12 +1,10 @@
 <template>
   <div>
-    <Title v-if="content?.data?.attributes?.meta?.title">
-      {{ content?.data?.attributes?.meta?.title }}
-    </Title>
+    <Title v-if="content?.title">{{ content?.title }}</Title>
     <Meta
-      v-if="content?.data?.attributes?.meta?.description"
+      v-if="content?.description"
       name="description"
-      :content="content?.data?.attributes?.meta?.description"
+      :content="content?.description"
     />
     <HeadingSection first="Harding's" second="Property Services">
       <NuxtLink
@@ -25,17 +23,46 @@
       </NuxtLink>
     </HeadingSection>
     <About class="mb-24" />
-    <Gallery :gallery="gallery" />
+    <Gallery :gallery="content?.gallery" />
     <ContactSection class="mt-24" />
   </div>
 </template>
 
 <script lang="ts">
-// import { kebabCase } from 'lodash-es'
 import type { Strapi4Response } from '@nuxtjs/strapi'
 export default {
   async setup() {
+    const { $img } = useNuxtApp()
     const config = useRuntimeConfig()
+    function transform(content: Strapi4Response) {
+      try {
+        const title = content?.data?.attributes?.meta?.title
+        const description = content?.data?.attributes?.meta?.description
+        const gallery = content?.data?.attributes?.gallery?.data.map(
+          ({
+            attributes: {
+              image: {
+                data: {
+                  attributes: { url },
+                },
+              },
+              title,
+            },
+          }) => ({
+            title,
+            src: $img(url),
+            url: `/gallery/${useKebabCase(title)}`,
+          }),
+        )
+        return {
+          title,
+          description,
+          gallery,
+        }
+      } catch (error) {
+        console.error(error)
+      }
+    }
     const { data: content } = await useFetch<Strapi4Response>('/api/home', {
       baseURL: config.STRAPI_URL,
       params: {
@@ -45,31 +72,12 @@ export default {
         // t: new Date().getTime(),
         // t: 1647049270404,
       },
-      server: false,
+      server: true,
+      transform,
     })
     return {
       content,
     }
-  },
-  computed: {
-    gallery() {
-      return this.content?.data?.attributes?.gallery?.data.map(
-        ({
-          attributes: {
-            image: {
-              data: {
-                attributes: { url },
-              },
-            },
-            title,
-          },
-        }) => ({
-          title,
-          src: url,
-          url: `/gallery/${useKebabCase(title)}`,
-        }),
-      )
-    },
   },
 }
 </script>
