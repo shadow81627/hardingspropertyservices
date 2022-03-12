@@ -1,6 +1,6 @@
 import createHmac from 'create-hmac'
 import { encodeURI } from 'js-base64'
-import { Buffer } from 'buffer/index.js'
+import { Buffer } from 'buffer'
 import { OperationGeneratorConfig, OperationMapper } from '~/types/image'
 import { joinURL, withBase } from 'ufo'
 
