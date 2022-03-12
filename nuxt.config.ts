@@ -11,6 +11,8 @@ export default defineNuxtConfig({
         process.env.PLAUSIBLE_DOMAIN ?? 'www.hardingspropertyservices.com',
       apiHost: process.env.PLAUSIBLE_API_HOST ?? 'https://plausible.daim.dev',
     },
+    IMGPROXY_KEY: process.env.IMGPROXY_KEY,
+    IMGPROXY_SALT: process.env.IMGPROXY_SALT,
   },
   meta: {
     title: APP_NAME,

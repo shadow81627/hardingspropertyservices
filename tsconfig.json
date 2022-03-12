@@ -4,5 +4,6 @@
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
   },
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  "types": [ "@types/create-hmac"]
 }
