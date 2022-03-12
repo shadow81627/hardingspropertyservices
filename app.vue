@@ -1,6 +1,5 @@
 <template>
   <Html lang="en-AU">
-    <Script src="/js/polyfills.js" />
     <!-- <Script type="application/ld+json" :children="jsonLD" /> -->
     <div class="min-h-screen flex flex-col justify-between">
       <Navigation />
@@ -86,6 +85,21 @@ export default {
       },
     })
     return jsonLD
+  },
+  created() {
+    if (process.client) {
+      if (global === undefined) {
+        var global = window
+      }
+
+      if (process === undefined) {
+        var process = {}
+      }
+
+      if (process.env === undefined) {
+        process.env = {}
+      }
+    }
   },
 }
 </script>

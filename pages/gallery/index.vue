@@ -19,7 +19,7 @@ export default {
           'sort[0]': 'category.slug',
           'sort[1]': 'order',
         },
-        server: false,
+        server: true,
         transform({ data }) {
           const result = data.map(
             ({

@@ -21,9 +21,8 @@ export default {
           'sort[0]': 'category.slug',
           'sort[1]': 'order',
         },
-        server: false,
+        server: true,
         transform({ data }) {
-          console.log('data', data)
           const result = data.map(
             ({
               attributes: {
@@ -39,8 +38,6 @@ export default {
               src: url,
             }),
           )
-          // .filter(({ title }) => route.params.id === useKebabCase(title))
-          console.log('result', result)
           return result
         },
       },

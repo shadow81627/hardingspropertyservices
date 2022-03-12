@@ -32,7 +32,7 @@
 import type { Strapi4Response } from '@nuxtjs/strapi'
 export default {
   async setup() {
-    const { $img } = useNuxtApp()
+    // const { $img } = useNuxtApp()
     const config = useRuntimeConfig()
     function transform(content: Strapi4Response) {
       try {
@@ -50,7 +50,7 @@ export default {
             },
           }) => ({
             title,
-            src: $img(url),
+            src: url,
             url: `/gallery/${useKebabCase(title)}`,
           }),
         )
