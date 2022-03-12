@@ -31,33 +31,45 @@
 </template>
 
 <script lang="ts">
+// import { kebabCase } from 'lodash-es'
 import type { Strapi4Response } from '@nuxtjs/strapi'
 export default {
   async setup() {
     const config = useRuntimeConfig()
     const { data: content } = await useFetch<Strapi4Response>('/api/home', {
       baseURL: config.STRAPI_URL,
-      params: { populate: 'meta' },
+      params: {
+        'populate[0]': 'meta',
+        'populate[1]': 'gallery',
+        'populate[2]': 'gallery.image',
+        // t: new Date().getTime(),
+        // t: 1647049270404,
+      },
+      server: false,
     })
-    const gallery = [
-      {
-        src: '/img/AF1QipM6lEqzYS3JTm-Em6ulliuclqJZ5uE1oh5mUcL_=s1524-k-no.jpg',
-      },
-      {
-        src: '/img/AF1QipPiYkY-IgxdCEYDcV6E-0ZdvqU5J1SBcmXaKvUi=s1160-k-no.jpg',
-        title: 'Lounge room paint refresh',
-        url: '/gallery/lounge-room-paint-refresh',
-      },
-      {
-        src: '/img/AF1QipP0e0BPg9clQU6UcTfHihp2N_ifzkbCkT69HN_4=s1218-k-no.jpg',
-        title: 'Sunroom reno',
-        url: '/gallery/sunroom-reno',
-      },
-    ]
     return {
       content,
-      gallery,
     }
+  },
+  computed: {
+    gallery() {
+      return this.content?.data?.attributes?.gallery?.data.map(
+        ({
+          attributes: {
+            image: {
+              data: {
+                attributes: { url },
+              },
+            },
+            title,
+          },
+        }) => ({
+          title,
+          src: url,
+          url: `/gallery/${useKebabCase(title)}`,
+        }),
+      )
+    },
   },
 }
 </script>
