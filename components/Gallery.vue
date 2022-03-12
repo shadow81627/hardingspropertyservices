@@ -15,11 +15,11 @@
             overflow-hidden
             rounded-lg
           >
-            <Picture
+            <img
               :src="src"
               :alt="title"
               class="block object-cover object-center w-full h-full"
-            ></Picture>
+            />
             <div
               v-if="title"
               class="absolute w-full py-4 bottom-0 inset-x-0 bg-gray-500 text-center leading-4"
