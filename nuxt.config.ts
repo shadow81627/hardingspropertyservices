@@ -38,6 +38,11 @@ export default defineNuxtConfig({
     // '@nuxtjs/strapi',
     'nuxt-lodash',
   ],
+  vite: {
+    build: {
+      sourcemap: true,
+    },
+  },
   vueuse: {
     ssrHandlers: true,
   },
