@@ -2,9 +2,9 @@ import { encodeURI } from 'js-base64'
 import { Buffer } from 'buffer'
 import { OperationGeneratorConfig, OperationMapper } from '~/types/image'
 import { joinURL, withBase } from 'ufo'
-import hmacSHA256 from 'crypto-js/hmac-sha256'
-import Base64url from 'crypto-js/enc-base64url'
-import hex from 'crypto-js/enc-hex'
+import hmacSHA256 from 'crypto-js/hmac-sha256.js'
+import Base64url from 'crypto-js/enc-base64url.js'
+import hex from 'crypto-js/enc-hex.js'
 
 export default defineNuxtPlugin(({ $config }) => {
   return {
