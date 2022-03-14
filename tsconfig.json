@@ -5,5 +5,5 @@
     "importHelpers": true,
   },
   "extends": "./.nuxt/tsconfig.json",
-  "types": [ "@types/create-hmac"]
+  "types": [ "@types/crypto-js"]
 }

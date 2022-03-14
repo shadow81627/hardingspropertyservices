@@ -1,8 +1,10 @@
-import createHmac from 'create-hmac'
 import { encodeURI } from 'js-base64'
 import { Buffer } from 'buffer'
 import { OperationGeneratorConfig, OperationMapper } from '~/types/image'
 import { joinURL, withBase } from 'ufo'
+import hmacSHA256 from 'crypto-js/hmac-sha256'
+import Base64url from 'crypto-js/enc-base64url'
+import hex from 'crypto-js/enc-hex'
 
 export default defineNuxtPlugin(({ $config }) => {
   return {
@@ -56,10 +58,13 @@ export default defineNuxtPlugin(({ $config }) => {
         }
 
         const sign = (salt: string, target: string, secret: string) => {
-          const hmac = createHmac('sha256', hexDecode(secret))
-          hmac.update(hexDecode(salt))
-          hmac.update(target)
-          return encodeURI(hmac.digest())
+          const msg = hexDecode(salt + Buffer.from(target).toString('hex')) // Uint8Array of arbitrary length
+          const hmac = hmacSHA256(
+            hex.parse(msg.toString('hex')),
+            hex.parse(secret),
+          )
+          const digest = hmac.toString(Base64url)
+          return digest
         }
 
         const operationsGenerator = createOperationsGenerator({
