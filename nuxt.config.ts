@@ -41,6 +41,7 @@ export default defineNuxtConfig({
   vite: {
     build: {
       sourcemap: true,
+      // target: 'es2015',
     },
   },
   vueuse: {
