@@ -1,7 +1,9 @@
 import { defineNuxtConfig } from 'nuxt3'
+import { withBase } from 'ufo'
 
 const APP_NAME = "Harding's Property Services"
 const BASE_URL = process.env.BASE_URL ?? "https://www.hardingspropertyservices.com/"
+const CDN_URL = process.env.CDN_URL ?? BASE_URL
 
 export default defineNuxtConfig({
   publicRuntimeConfig: {
@@ -21,16 +23,16 @@ export default defineNuxtConfig({
       { name: 'description', content: APP_NAME },
       { name: 'apple-mobile-web-app-status-bar', content: 'black' },
       { name: 'theme-color', content: 'black' },
-      {property: 'og:image',content: `${BASE_URL}hardings-property.png`},
+      {property: 'og:image',content: withBase('hardings-property.png', CDN_URL)},
       {property: 'og:image:type',content: 'image/png'},
       {property: 'og:image:width',content: '1200'},
       {property: 'og:image:height',content: '600'},
       {property: 'og:image:alt',content: "Harding's Property Services"},
     ],
     link: [
-      { rel: 'manifest', href: `${BASE_URL}manifest.json` },
-      { rel: 'icon', type: 'image/x-icon', href: `${BASE_URL}favicon.ico` },
-      { rel: 'apple-touch-icon', type: 'image/png', href: `${BASE_URL}/apple-touch-icon.png` },
+      { rel: 'manifest', href: withBase('manifest.json', CDN_URL) },
+      { rel: 'icon', type: 'image/x-icon', href: withBase('/favicon.ico', CDN_URL) },
+      { rel: 'apple-touch-icon', type: 'image/png', href: withBase('/apple-touch-icon.png', CDN_URL) },
     ],
   },
   modules: ['vue-plausible', '@formkit/nuxt'],
