@@ -1,9 +1,11 @@
 import { defineNuxtConfig } from 'nuxt3'
+import legacy from '@vitejs/plugin-legacy'
 
 const APP_NAME = "Harding's Property Services"
 const BASE_URL = process.env.BASE_URL ?? "https://www.hardingspropertyservices.com/"
 
 export default defineNuxtConfig({
+  modern: true,
   publicRuntimeConfig: {
     APP_NAME,
     STRAPI_URL: process.env.STRAPI_URL ?? 'https://strapi.daim.dev',
@@ -44,8 +46,15 @@ export default defineNuxtConfig({
   vite: {
     build: {
       sourcemap: true,
-      // target: 'es2015',
+      target: 'es2015',
     },
+    plugins: [
+      legacy({
+        // targets: ['defaults', 'not IE 11'],
+        targets: ['ie >= 11'],
+        additionalLegacyPolyfills: ['regenerator-runtime/runtime']
+      })
+    ],
   },
   vueuse: {
     ssrHandlers: true,

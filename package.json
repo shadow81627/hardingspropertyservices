@@ -30,6 +30,7 @@
     "@typescript-eslint/eslint-plugin": "5.13.0",
     "@typescript-eslint/parser": "5.13.0",
     "@unocss/nuxt": "0.20.4",
+    "@vitejs/plugin-legacy": "1.7.1",
     "@vue/eslint-config-standard": "6.1.0",
     "@vueuse/nuxt": "7.6.1",
     "eslint": "8.10.0",
