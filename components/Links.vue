@@ -8,7 +8,7 @@
     <ul class="navbar-nav flex flex-row pl-0 list-style-none mr-auto">
       <li v-for="{ title, url } of items" :key="url" class="nav-item px-2">
         <NuxtLink
-          class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+          class="nav-link text-primary-500 hover:text-primary-700 focus:text-primary-700 p-0"
           :to="url"
         >
           {{ title }}
