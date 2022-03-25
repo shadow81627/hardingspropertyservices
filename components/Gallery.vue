@@ -19,6 +19,8 @@
               :src="src"
               :alt="title"
               class="block object-cover object-center w-full h-full"
+              width="416"
+              height="555"
             />
             <div
               v-if="title"
