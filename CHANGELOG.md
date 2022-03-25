@@ -1,5 +1,18 @@
 # Releases
 
+## [1.0.2](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.1...v1.0.2) (2022-03-25)
+
+
+### Bug Fixes
+
+* **about:** primary color ([57c0290](https://github.com/shadow81627/hardingspropertyservices/commit/57c0290c9d642f157cbf1233b5f23bdd8cff8d97))
+* **contact form:** primary color ([0249379](https://github.com/shadow81627/hardingspropertyservices/commit/0249379e9177dc2003920df07f0601df311c96f8))
+* **contact section:** primary color ([3ebe40d](https://github.com/shadow81627/hardingspropertyservices/commit/3ebe40db55a97a05d97e7a2badd6a144af2d3a8f))
+* **heading section:** brand font and color ([fc2d3b6](https://github.com/shadow81627/hardingspropertyservices/commit/fc2d3b665f8cd0dbd04c4f92b2d73ffee378f769))
+* **home:** primary color ([41fc2cb](https://github.com/shadow81627/hardingspropertyservices/commit/41fc2cb8718244285c53050a370246bf9d0e65fa))
+* **home:** right quote in heading ([f1c128b](https://github.com/shadow81627/hardingspropertyservices/commit/f1c128b59e7760790edd4b1b3de6ffadc7e2195a))
+* **unocss:** brand font fallback ([867da00](https://github.com/shadow81627/hardingspropertyservices/commit/867da0030c72fbf35166b90afff3209c1fccb52b))
+
 ## [1.0.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.0...v1.0.1) (2022-03-25)
 
 
