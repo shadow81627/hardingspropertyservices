@@ -20,11 +20,11 @@ export default defineNuxtConfig({
       { name: 'description', content: APP_NAME },
       { name: 'apple-mobile-web-app-status-bar', content: 'black' },
       { name: 'theme-color', content: 'black' },
-      {
-        property: 'og:image',
-        type: 'image/png',
-        content: '/hardings-property.png',
-      },
+      {property: 'og:image',content: '/hardings-property.png'},
+      {property: 'og:image:type',content: 'image/png'},
+      {property: 'og:image:width',content: '969'},
+      {property: 'og:image:height',content: '236'},
+      {property: 'og:image:alt',content: "Harding's Property Services"},
     ],
     link: [
       { rel: 'manifest', href: '/manifest.json' },
