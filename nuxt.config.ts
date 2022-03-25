@@ -24,9 +24,10 @@ export default defineNuxtConfig({
     link: [
       { rel: 'manifest', href: '/manifest.json' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'apple-touch-icon', type: 'image/png', href: '/apple-touch-icon.png' },
       {
         rel: 'og:image',
-        href: '/img/273439411_105620025378754_932846106177531871_n.jpg',
+        href: '/hardings-property.png',
       },
     ],
   },
