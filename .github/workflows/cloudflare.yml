@@ -34,6 +34,8 @@ jobs:
         run: yarn build
         env:
           NITRO_PRESET: cloudflare
+          IMGPROXY_KEY: ${{ secrets.IMGPROXY_KEY }}
+          IMGPROXY_SALT: ${{ secrets.IMGPROXY_SALT }}
 
       - name: Publish to Cloudflare
         uses: cloudflare/wrangler-action@1.3.0
