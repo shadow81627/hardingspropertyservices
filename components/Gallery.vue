@@ -21,6 +21,7 @@
               class="block object-cover object-center w-full h-full"
               width="416"
               height="555"
+              sizes="sm:100vw md:33vw lg:416px"
             />
             <div
               v-if="title"
