@@ -1,5 +1,17 @@
 # Releases
 
+## [1.0.4](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.3...v1.0.4) (2022-03-25)
+
+
+### Bug Fixes
+
+* **heading:** text size smaller on mobile ([e87fd06](https://github.com/shadow81627/hardingspropertyservices/commit/e87fd06a86a7b2ce95e404948db80b983e68225c))
+
+
+### Performance Improvements
+
+* **gallery:** add width and height ([8438105](https://github.com/shadow81627/hardingspropertyservices/commit/84381051431f741ac031aca452f8f95eb82e1dfb))
+
 ## [1.0.3](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.2...v1.0.3) (2022-03-25)
 
 
