@@ -59,6 +59,11 @@ export default defineNuxtConfig({
     icons: {
       scale: 1.2,
     },
+    theme: {
+      colors: {
+        primary: '#6a3e1e',
+      },
+    },
     shortcuts: [
       [
         'btn',
