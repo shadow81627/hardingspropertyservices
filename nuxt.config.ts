@@ -57,7 +57,15 @@ export default defineNuxtConfig({
     attributify: true,
     preflight: true,
     webFonts: {
-      fonts: { brand: 'Alfa Slab One' }
+      fonts: {
+        brand: [
+          { name: 'Alfa Slab One' },
+          {
+            name: 'sans-serif',
+            provider: 'none',
+          },
+        ],
+      },
     },
     icons: {
       scale: 1.2,
