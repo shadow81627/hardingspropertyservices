@@ -1,5 +1,12 @@
 # Releases
 
+## [1.0.3](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.2...v1.0.3) (2022-03-25)
+
+
+### Bug Fixes
+
+* **links:** primary color ([d45b76d](https://github.com/shadow81627/hardingspropertyservices/commit/d45b76d0fa2274a3a89537f58630cd910946bbf1))
+
 ## [1.0.2](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.1...v1.0.2) (2022-03-25)
 
 
