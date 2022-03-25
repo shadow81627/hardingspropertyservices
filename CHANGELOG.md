@@ -1,5 +1,12 @@
 # Releases
 
+## [1.0.5](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.4...v1.0.5) (2022-03-25)
+
+
+### Performance Improvements
+
+* **gallery:** image sizes ([757d58a](https://github.com/shadow81627/hardingspropertyservices/commit/757d58acc0ca406d621449a04355c4b2fd213fd2))
+
 ## [1.0.4](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.3...v1.0.4) (2022-03-25)
 
 
