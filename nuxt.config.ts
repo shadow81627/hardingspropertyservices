@@ -22,8 +22,8 @@ export default defineNuxtConfig({
       { name: 'theme-color', content: 'black' },
       {property: 'og:image',content: 'https://www.hardingspropertyservices.com/hardings-property.png'},
       {property: 'og:image:type',content: 'image/png'},
-      {property: 'og:image:width',content: '969'},
-      {property: 'og:image:height',content: '236'},
+      {property: 'og:image:width',content: '1200'},
+      {property: 'og:image:height',content: '600'},
       {property: 'og:image:alt',content: "Harding's Property Services"},
     ],
     link: [
