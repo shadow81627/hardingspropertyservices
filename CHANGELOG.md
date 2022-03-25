@@ -1,5 +1,12 @@
 # Releases
 
+## [1.0.6](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.5...v1.0.6) (2022-03-25)
+
+
+### Bug Fixes
+
+* **deps:** update ([#29](https://github.com/shadow81627/hardingspropertyservices/issues/29)) ([461d837](https://github.com/shadow81627/hardingspropertyservices/commit/461d8375274b07e0ce1ed4283ccba8c648d3f1b3))
+
 ## [1.0.5](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.4...v1.0.5) (2022-03-25)
 
 
