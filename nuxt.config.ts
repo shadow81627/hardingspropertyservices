@@ -20,15 +20,16 @@ export default defineNuxtConfig({
       { name: 'description', content: APP_NAME },
       { name: 'apple-mobile-web-app-status-bar', content: 'black' },
       { name: 'theme-color', content: 'black' },
+      {
+        property: 'og:image',
+        type: 'image/png',
+        content: '/hardings-property.png',
+      },
     ],
     link: [
       { rel: 'manifest', href: '/manifest.json' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'apple-touch-icon', type: 'image/png', href: '/apple-touch-icon.png' },
-      {
-        rel: 'og:image',
-        href: '/hardings-property.png',
-      },
     ],
   },
   modules: ['vue-plausible', '@formkit/nuxt'],
