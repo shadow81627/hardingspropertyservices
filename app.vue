@@ -1,7 +1,7 @@
 <template>
   <Html lang="en-AU">
     <!-- <Script type="application/ld+json" :children="jsonLD" /> -->
-    <div class="min-h-screen flex flex-col justify-between">
+    <div class="min-h-screen flex flex-col justify-between background-image">
       <Navigation />
       <main class="px-10 mb-auto">
         <NuxtPage />
@@ -91,4 +91,25 @@ export default {
 
 <style>
 @import '~/styles/main.css';
+
+/* body, html {
+  height: 100%;
+}
+
+.background-image {
+  background-image: url(/magdalena-wP7QAKMwlG4-unsplash.jpg);
+  background-repeat: repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+html.light .background-image {
+  box-shadow: inset 0 0 0 1000px rgba(255,255,255,0.1);
+}
+html.dark .background-image {
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.1);
+} */
 </style>
