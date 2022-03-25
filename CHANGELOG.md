@@ -1,5 +1,12 @@
 # Releases
 
+## [1.0.7](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.6...v1.0.7) (2022-03-25)
+
+
+### Reverts
+
+* Revert "fix(deps): update (#29)" (#30) ([f930fd2](https://github.com/shadow81627/hardingspropertyservices/commit/f930fd2c77ff658a4ccc631b2eaab9e9c47be131)), closes [#29](https://github.com/shadow81627/hardingspropertyservices/issues/29) [#30](https://github.com/shadow81627/hardingspropertyservices/issues/30)
+
 ## [1.0.6](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.5...v1.0.6) (2022-03-25)
 
 
