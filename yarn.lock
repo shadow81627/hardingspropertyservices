@@ -432,6 +432,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/standalone@npm:^7.17.2":
+  version: 7.17.8
+  resolution: "@babel/standalone@npm:7.17.8"
+  checksum: ca72ff478ab72ae79601e2070a65df30b38de874772f66469cee860981d55f4ef45a57fff2afcaac588e644733696596ed7e0fa0907836f7d0f53a22b9fcd622
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.0.0, @babel/template@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/template@npm:7.16.7"
@@ -1929,6 +1936,21 @@ __metadata:
   bin:
     nft: out/cli.js
   checksum: 812de9ed9dc9116ddc514fbb8ece044ba9427a16fe999110ebdea7581f1055d891d05ad1d8bb4cb6dfb497bdac605168440be64b00f1fad9581a42158a97a02c
+  languageName: node
+  linkType: hard
+
+"@vitejs/plugin-legacy@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@vitejs/plugin-legacy@npm:1.7.1"
+  dependencies:
+    "@babel/standalone": ^7.17.2
+    core-js: ^3.21.0
+    magic-string: ^0.25.7
+    regenerator-runtime: ^0.13.9
+    systemjs: ^6.12.1
+  peerDependencies:
+    vite: ^2.8.0
+  checksum: 99332e2138c008343c219706b1e15ae646172c522c9612b8b925cb8d264c7debae1e48ef79a978244d9a7d0558c4bf7442ccc9c1bafe6d857817d37b89a856ec
   languageName: node
   linkType: hard
 
@@ -3718,6 +3740,13 @@ __metadata:
   version: 0.4.2
   resolution: "cookie@npm:0.4.2"
   checksum: a00833c998bedf8e787b4c342defe5fa419abd96b32f4464f718b91022586b8f1bafbddd499288e75c037642493c83083da426c6a9080d309e3bd90fd11baa9b
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.21.0":
+  version: 3.21.1
+  resolution: "core-js@npm:3.21.1"
+  checksum: d68eddd831340ad5b24ac29c72fda022a43b17f194c4278b6b875a843283d316502cb4abd07f28631d6ebc4387f66aa06e2b1b3c8fd7e08096a751b5c63f6889
   languageName: node
   linkType: hard
 
@@ -6014,6 +6043,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.13.0
     "@typescript-eslint/parser": 5.13.0
     "@unocss/nuxt": 0.20.4
+    "@vitejs/plugin-legacy": 1.7.1
     "@vue/eslint-config-standard": 6.1.0
     "@vueuse/nuxt": 7.6.1
     buffer: 6.0.3
@@ -9731,6 +9761,13 @@ nuxt3@latest:
   languageName: node
   linkType: hard
 
+"regenerator-runtime@npm:^0.13.9":
+  version: 0.13.9
+  resolution: "regenerator-runtime@npm:0.13.9"
+  checksum: 65ed455fe5afd799e2897baf691ca21c2772e1a969d19bb0c4695757c2d96249eb74ee3553ea34a91062b2a676beedf630b4c1551cc6299afb937be1426ec55e
+  languageName: node
+  linkType: hard
+
 "regexp-tree@npm:^0.1.23, regexp-tree@npm:~0.1.1":
   version: 0.1.24
   resolution: "regexp-tree@npm:0.1.24"
@@ -10803,6 +10840,13 @@ nuxt3@latest:
   bin:
     svgo: bin/svgo
   checksum: b92f71a8541468ffd0b81b8cdb36b1e242eea320bf3c1a9b2c8809945853e9d8c80c19744267eb91cabf06ae9d5fff3592d677df85a31be4ed59ff78534fa420
+  languageName: node
+  linkType: hard
+
+"systemjs@npm:^6.12.1":
+  version: 6.12.1
+  resolution: "systemjs@npm:6.12.1"
+  checksum: 82388eb436013898d364d063478f97ce2a0a01c4a9a46088244da16e48a4aae6b4368a988c24409d3680c0d9bfb0ed68464f45494836218bd1cb4798501be8f9
   languageName: node
   linkType: hard
 
