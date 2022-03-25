@@ -1,5 +1,12 @@
 # Releases
 
+## [1.0.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.0...v1.0.1) (2022-03-25)
+
+
+### Bug Fixes
+
+* **og image:** image padding ([450d072](https://github.com/shadow81627/hardingspropertyservices/commit/450d072f99d63f748d58053b5808edc23bdf5bcd))
+
 # 1.0.0 (2022-03-25)
 
 
