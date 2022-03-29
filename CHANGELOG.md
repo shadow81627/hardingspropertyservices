@@ -1,5 +1,12 @@
 # Releases
 
+## [1.0.8](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.7...v1.0.8) (2022-03-29)
+
+
+### Bug Fixes
+
+* **about:** add gutter cleaning ([84fb739](https://github.com/shadow81627/hardingspropertyservices/commit/84fb73910182cade880ce17653f8851b35cbdc5e))
+
 ## [1.0.7](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.6...v1.0.7) (2022-03-25)
 
 
