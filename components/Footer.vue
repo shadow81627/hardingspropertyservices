@@ -6,6 +6,7 @@
       target="__blank"
       aria-label="Instagram"
       title="Instagram"
+      text-3xl
     />
     <a
       i-carbon-logo-facebook
@@ -13,6 +14,7 @@
       target="__blank"
       aria-label="Facebook"
       title="Facebook"
+      text-3xl
     />
     <a
       i-carbon-logo-google
@@ -20,6 +22,7 @@
       target="__blank"
       aria-label="Google"
       title="Google"
+      text-3xl
     />
   </div>
 </template>
