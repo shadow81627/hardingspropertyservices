@@ -10,8 +10,11 @@
       md:px-5
       py-2
       mx-auto
-      lg:pt-12
+      lg:py-12
       lg:px-32
+      rounded-lg
+      bg-gray-100
+      text-gray-700
     >
       <p>
         Wayne Harding has a lifelong passion for home improvement and
