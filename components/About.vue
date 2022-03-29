@@ -1,20 +1,19 @@
 <template>
-  <section>
+  <section container px-5 py-2 mx-auto lg:pt-12 lg:px-32>
     <div
-      container
       flex
       flex-wrap
       justify-between
       flex-col
       text-left
-      md:px-5
-      py-2
+      p-8
       mx-auto
       lg:py-12
       lg:px-32
       rounded-lg
       bg-gray-100
       text-gray-700
+      bg-opacity-75
     >
       <p>
         Wayne Harding has a lifelong passion for home improvement and
@@ -39,8 +38,9 @@
       </ul>
 
       <p>
-        If you&rsquo;re in need of these services in your home, or you have an enquiry
-        about a different odd job that needs doing, don&rsquo;t hesitate to use the
+        If you&rsquo;re in need of these services in your home, or you have an
+        enquiry about a different odd job that needs doing, don&rsquo;t hesitate
+        to use the
         <NuxtLink
           to="/contact"
           class="text-primary-600 hover:text-primary-700 transition duration-300 ease-in-out"
