@@ -24,13 +24,15 @@
       </p>
 
       <ul list-disc list-inside py-2 flex justify-between flex-wrap>
-        <li md:p-2 flex-auto w-full md:w-auto>Property maintenance</li>
+        <li md:px-2 py-2 flex-auto w-full md:w-auto>Property maintenance</li>
         <li md:px-2 py-2 flex-auto w-full md:w-auto>Lawn mowing</li>
         <li md:px-2 py-2 flex-auto w-full md:w-auto>
           General handyman services
         </li>
         <li md:px-2 py-2 flex-auto w-full md:w-auto>Odd jobs</li>
         <li md:px-2 py-2 flex-auto w-full md:w-auto>Flat pack assembly</li>
+        <li md:px-2 py-2 flex-auto w-full md:w-auto>Gutter Cleaning</li>
+        <li md:px-2 py-2 flex-auto w-full md:w-auto>Rubbish jobs</li>
       </ul>
 
       <p>
