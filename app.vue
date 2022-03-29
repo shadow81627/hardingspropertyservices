@@ -92,7 +92,7 @@ export default {
 <style>
 @import '~/styles/main.css';
 
-/* body, html {
+body, html {
   height: 100%;
 }
 
@@ -111,5 +111,5 @@ html.light .background-image {
 }
 html.dark .background-image {
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.1);
-} */
+}
 </style>
