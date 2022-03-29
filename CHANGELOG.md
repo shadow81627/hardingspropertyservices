@@ -1,5 +1,13 @@
 # Releases
 
+## [1.0.9](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.8...v1.0.9) (2022-03-29)
+
+
+### Bug Fixes
+
+* **about:** contact link bold ([d736d3f](https://github.com/shadow81627/hardingspropertyservices/commit/d736d3fb24216f92603c6a24ad20bd88d7db7113))
+* **footer:** 3xl icons ([2d85d8c](https://github.com/shadow81627/hardingspropertyservices/commit/2d85d8cb69c35426d089fe0a82bed262ef1bb68a))
+
 ## [1.0.8](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.7...v1.0.8) (2022-03-29)
 
 
