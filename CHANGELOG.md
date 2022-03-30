@@ -1,5 +1,12 @@
 # Releases
 
+## [1.1.2](https://github.com/shadow81627/hardingspropertyservices/compare/v1.1.1...v1.1.2) (2022-03-30)
+
+
+### Bug Fixes
+
+* **home:** strapi request with timestamp ([83c3c26](https://github.com/shadow81627/hardingspropertyservices/commit/83c3c2601783b99730586d8cbea3e42469e6f2fb))
+
 ## [1.1.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.1.0...v1.1.1) (2022-03-30)
 
 
