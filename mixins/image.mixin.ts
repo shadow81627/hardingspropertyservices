@@ -69,6 +69,7 @@ export const imageMixin = defineMixin({
       width?: number
       height?: number
       alt?: string
+      'aria-label'?: string
       referrerpolicy?: string
       usemap?: string
       longdesc?: string
@@ -80,7 +81,8 @@ export const imageMixin = defineMixin({
       return {
         width: parseSize(this.width),
         height: parseSize(this.height),
-        alt: this.alt,
+        alt: this.alt ?? '',
+        'aria-label': this.alt ?? '',
         referrerpolicy: this.referrerpolicy,
         usemap: this.usemap,
         longdesc: this.longdesc,
