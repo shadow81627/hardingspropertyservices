@@ -22,7 +22,7 @@
     >
       <meta itemprop="serviceType" content="Handyman" />
       <span
-        class="hidden"
+        style="display: none"
         itemprop="provider"
         itemscope
         itemtype="https://schema.org/LocalBusiness"
