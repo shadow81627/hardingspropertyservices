@@ -54,6 +54,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     // '@nuxtjs/strapi',
     'nuxt-lodash',
+    '@unlighthouse/nuxt',
   ],
   sitemap: {
     hostname: BASE_URL,
