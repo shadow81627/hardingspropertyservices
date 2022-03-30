@@ -43,6 +43,8 @@
     "miniflare": "2.3.0",
     "nuxt-lodash": "2.1.1",
     "nuxt3": "latest",
+    "prettier": "2.6.1",
+    "puppeteer": "13.5.1",
     "typescript": "4.5.5"
   },
   "pnpm": {

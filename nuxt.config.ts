@@ -56,6 +56,19 @@ export default defineNuxtConfig({
     'nuxt-lodash',
     '@unlighthouse/nuxt',
   ],
+  unlighthouse: {
+    scanner: {
+      device: 'mobile',
+    },
+    // debug: true,
+    puppeteerOptions: {
+      headless: true,
+      devtools: false,
+      executablePath: '/usr/bin/google-chrome',
+      args: ["--no-sandbox", '--disable-setuid-sandbox'],
+      ignoreDefaultArgs: ['--disable-extensions'],
+    }
+  },
   sitemap: {
     hostname: BASE_URL,
     routes: ['/', '/contact', '/gallery'],
