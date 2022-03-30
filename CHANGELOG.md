@@ -1,5 +1,12 @@
 # Releases
 
+# [1.5.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.4.1...v1.5.0) (2022-03-30)
+
+
+### Features
+
+* **about:** add phone and image microdata ([a57df79](https://github.com/shadow81627/hardingspropertyservices/commit/a57df798e8d8ca4a09c853eec7ab38b25ad1fc40))
+
 ## [1.4.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.4.0...v1.4.1) (2022-03-30)
 
 
