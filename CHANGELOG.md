@@ -1,5 +1,21 @@
 # Releases
 
+# [1.1.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.9...v1.1.0) (2022-03-30)
+
+
+### Bug Fixes
+
+* **about:** background color ([6b1416c](https://github.com/shadow81627/hardingspropertyservices/commit/6b1416cf952d5cbf2ca233c8d76bc8f6c844dcb2))
+* **about:** background opacity 75 ([4352bdb](https://github.com/shadow81627/hardingspropertyservices/commit/4352bdb4a5d22f951ec36d7e77a446a80a236d32))
+* **app:** enable background image ([ab387e9](https://github.com/shadow81627/hardingspropertyservices/commit/ab387e9dd5a9da592813492e3fbad4c852b8646c))
+* **app:** picture elemet for background ([095d354](https://github.com/shadow81627/hardingspropertyservices/commit/095d3549781cbeae65186620e146ec48d523cb8c))
+* **contact section:** background opacity 75 ([e90db31](https://github.com/shadow81627/hardingspropertyservices/commit/e90db31b225009c57c8ddbefcf569f097074304b))
+
+
+### Features
+
+* background image ([a18df37](https://github.com/shadow81627/hardingspropertyservices/commit/a18df37dce1fdafa257de1efc42653eca5d66948))
+
 ## [1.0.9](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.8...v1.0.9) (2022-03-29)
 
 
