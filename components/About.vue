@@ -29,25 +29,25 @@
       >
         <span itemprop="name">Harding's Property Services</span>
         <a itemprop="url" href="https://hardingspropertyservices.com.au">
-          <span itemprop="name">Website</span>
+          <span>Website</span>
         </a>
         <a
           itemprop="sameAs"
           href="https://www.instagram.com/hardingspropertyservices/"
         >
-          <span itemprop="name">Instagram</span>
+          <span>Instagram</span>
         </a>
         <a
           itemprop="sameAs"
           href="https://www.facebook.com/hardingspropertyservices"
         >
-          <span itemprop="name">Facebook</span>
+          <span>Facebook</span>
         </a>
         <a
           itemprop="sameAs"
           href="https://g.co/kgs/X69CKJ"
         >
-          <span itemprop="name">Google</span>
+          <span>Google</span>
         </a>
       </span>
 
