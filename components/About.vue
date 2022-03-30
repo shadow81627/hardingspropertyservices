@@ -28,6 +28,8 @@
         itemtype="https://schema.org/LocalBusiness"
       >
         <span itemprop="name">Harding's Property Services</span>
+        <span itemprop="telephone">0487 950 940</span>
+        <a itemprop="image" href="https://hardingspropertyservices.com.au/hardings-property-1200x600.png">Image</a>
         <a itemprop="url" href="https://hardingspropertyservices.com.au">
           <span>Website</span>
         </a>
