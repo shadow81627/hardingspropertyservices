@@ -1,7 +1,14 @@
 <template>
   <Html lang="en-AU">
     <!-- <Script type="application/ld+json" :children="jsonLD" /> -->
-    <div class="min-h-screen flex flex-col justify-between background-image">
+    <div id="bg">
+      <Picture
+        :src="backgroundImage"
+        alt=""
+        sizes="sm:100vw md:100vw lg:100vw"
+      ></Picture>
+    </div>
+    <div class="min-h-screen flex flex-col justify-between body">
       <Navigation />
       <main class="px-10 mb-auto">
         <NuxtPage />
@@ -24,6 +31,8 @@
 export default {
   setup() {
     const config = useRuntimeConfig()
+    const backgroundImage =
+      'https://s3.ap-northeast-2.wasabisys.com/strapi.daim.dev/strapi.daim.dev/magdalena_w_P7_QAK_Mwl_G4_unsplash_45e919d1b5.jpg?updated_at=2022-03-29T22:20:37.965Z'
     const jsonLD = JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'Service',
@@ -84,7 +93,7 @@ export default {
         ],
       },
     })
-    return jsonLD
+    return { jsonLD, backgroundImage }
   },
 }
 </script>
@@ -92,24 +101,29 @@ export default {
 <style>
 @import '~/styles/main.css';
 
-body, html {
-  height: 100%;
+html.light .body {
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.1);
+}
+html.dark .body {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
 }
 
-.background-image {
-  background-image: url(/magdalena-wP7QAKMwlG4-unsplash.jpg);
-  background-repeat: repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -10;
 }
-html.light .background-image {
-  box-shadow: inset 0 0 0 1000px rgba(255,255,255,0.1);
-}
-html.dark .background-image {
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.1);
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
 }
 </style>
