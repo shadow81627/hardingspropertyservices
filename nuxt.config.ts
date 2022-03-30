@@ -60,6 +60,8 @@ export default defineNuxtConfig({
     scanner: {
       device: 'mobile',
     },
+    headless: true,
+    devtools: false,
     // debug: true,
     puppeteerOptions: {
       executablePath: '/usr/bin/google-chrome',
