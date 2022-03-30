@@ -70,7 +70,7 @@ export default {
         'populate[1]': 'gallery',
         'populate[2]': 'gallery.image',
         // t: new Date().getTime(),
-        // t: 1647049270404,
+        t: 1648607183585,
       },
       server: true,
       transform,
