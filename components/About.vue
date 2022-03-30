@@ -27,7 +27,7 @@
         itemscope
         itemtype="https://schema.org/LocalBusiness"
       >
-        <span itemprop="name">HARDING&rsquo;S PROPERTY SERVICES</span>
+        <span itemprop="name">Harding's Property Services</span>
         <a itemprop="url" href="https://hardingspropertyservices.com.au">
           <span itemprop="name">Website</span>
         </a>
