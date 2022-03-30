@@ -1,5 +1,12 @@
 # Releases
 
+# [1.4.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.3.1...v1.4.0) (2022-03-30)
+
+
+### Features
+
+* **gallery:** micro data ([5e433fa](https://github.com/shadow81627/hardingspropertyservices/commit/5e433fa78c93f95a6ca10c243930618e719ff25b))
+
 ## [1.3.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.3.0...v1.3.1) (2022-03-30)
 
 
