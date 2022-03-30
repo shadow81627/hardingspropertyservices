@@ -1,5 +1,12 @@
 # Releases
 
+## [1.3.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.3.0...v1.3.1) (2022-03-30)
+
+
+### Bug Fixes
+
+* **about:** replace hidden class with inline display none ([3446866](https://github.com/shadow81627/hardingspropertyservices/commit/3446866f139998dca2149f5e6ef2acec6399e22d))
+
 # [1.3.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.2.0...v1.3.0) (2022-03-30)
 
 
