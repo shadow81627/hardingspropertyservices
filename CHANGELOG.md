@@ -1,5 +1,12 @@
 # Releases
 
+## [1.6.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.6.0...v1.6.1) (2022-03-30)
+
+
+### Bug Fixes
+
+* **pages:** move html node inside root div ([c32b03f](https://github.com/shadow81627/hardingspropertyservices/commit/c32b03fbc27462e971009d19217391d8d289ed5d))
+
 # [1.6.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.5.0...v1.6.0) (2022-03-30)
 
 
