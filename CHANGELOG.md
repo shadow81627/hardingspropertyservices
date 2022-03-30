@@ -1,5 +1,13 @@
 # Releases
 
+## [1.1.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.1.0...v1.1.1) (2022-03-30)
+
+
+### Bug Fixes
+
+* **home:** remove replace first gallery item ([b53a9b1](https://github.com/shadow81627/hardingspropertyservices/commit/b53a9b1508ca005cff509db931ac3c21b0d2886d))
+* **nav:** background color for contrast ([41324dd](https://github.com/shadow81627/hardingspropertyservices/commit/41324ddcd6cc9ea88c6a4597b2148f39d6ae8cd4))
+
 # [1.1.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.0.9...v1.1.0) (2022-03-30)
 
 
