@@ -1,8 +1,10 @@
 <template>
+<Html itemscope itemtype="https://schema.org/MediaGallery">
   <div>
     <HeadingSection first="Gallery" />
     <Gallery :gallery="gallery" />
   </div>
+</Html>
 </template>
 
 <script lang="ts">
