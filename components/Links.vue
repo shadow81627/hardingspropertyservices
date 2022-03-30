@@ -5,6 +5,8 @@
     class="nav-link px-1 pt-1 border-b-2 inline-flex items-center font-medium font-medium"
     :class="classes(url)"
     :to="url"
+    itemscope
+    itemtype="https://schema.org/SiteNavigationElement"
   >
     {{ title }}
   </NuxtLink>
