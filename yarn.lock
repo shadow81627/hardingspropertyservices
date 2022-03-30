@@ -1201,6 +1201,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxtjs/sitemap@npm:2.4.0":
+  version: 2.4.0
+  resolution: "@nuxtjs/sitemap@npm:2.4.0"
+  dependencies:
+    async-cache: ^1.1.0
+    consola: ^2.13.0
+    etag: ^1.8.1
+    fresh: ^0.5.2
+    fs-extra: ^8.1.0
+    is-https: ^2.0.2
+    lodash.unionby: ^4.8.0
+    minimatch: ^3.0.4
+    sitemap: ^4.1.1
+  checksum: 7deb9e4dee977ca69142131e5b442e8d6b0f139253c9bd9c25bfbe27d418bf979cf9bce3f1a3b6e1d3426bdd1dbf9ac5e416f270307969da66b0e079c8f7e642
+  languageName: node
+  linkType: hard
+
 "@nuxtjs/strapi@npm:1.3.0":
   version: 1.3.0
   resolution: "@nuxtjs/strapi@npm:1.3.0"
@@ -1497,6 +1514,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^12.0.2":
+  version: 12.20.47
+  resolution: "@types/node@npm:12.20.47"
+  checksum: 97487af02fada4342e1bd47f9c9ebf601c12b85cbf17056ba73a315339ae996490403f2d4d1d799d8078cfe43a59e33370b4a5ae2d4fb79dd02359f4691934b4
+  languageName: node
+  linkType: hard
+
 "@types/normalize-package-data@npm:^2.4.0":
   version: 2.4.1
   resolution: "@types/normalize-package-data@npm:2.4.1"
@@ -1533,6 +1557,15 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: e99fc7cc6265407987b30deda54c1c24bb1478803faf6037557a774b2f034c5b097ffd65847daa87e82a61a250d919f35c3588654b0fdaa816906650f596d1b0
+  languageName: node
+  linkType: hard
+
+"@types/sax@npm:^1.2.0":
+  version: 1.2.4
+  resolution: "@types/sax@npm:1.2.4"
+  dependencies:
+    "@types/node": "*"
+  checksum: 2aa50cbf1d1f0cf8541ef1787f94c7442e58e63900afd3b45c354e4140ed5efc5cf26fca8eb9df9970a74c7ea582293ae2083271bd046dedf4c3cc2689a40892
   languageName: node
   linkType: hard
 
@@ -2856,6 +2889,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"arg@npm:^4.1.1":
+  version: 4.1.3
+  resolution: "arg@npm:4.1.3"
+  checksum: 544af8dd3f60546d3e4aff084d451b96961d2267d668670199692f8d054f0415d86fc5497d0e641e91546f0aa920e7c29e5250e99fc89f5552a34b5d93b77f43
+  languageName: node
+  linkType: hard
+
 "argparse@npm:^1.0.7":
   version: 1.0.10
   resolution: "argparse@npm:1.0.10"
@@ -2932,6 +2972,15 @@ __metadata:
   version: 2.0.0
   resolution: "astral-regex@npm:2.0.0"
   checksum: 876231688c66400473ba505731df37ea436e574dd524520294cc3bbc54ea40334865e01fa0d074d74d036ee874ee7e62f486ea38bc421ee8e6a871c06f011766
+  languageName: node
+  linkType: hard
+
+"async-cache@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "async-cache@npm:1.1.0"
+  dependencies:
+    lru-cache: ^4.0.0
+  checksum: 3f55cc78b3ddc745b6604dd144fc7bca2e21c7ba4c5ea18d312234dc625133511723dff6c71b2283582421f95d591bdb24bf89ce4c4869151e4ecedbdad4acf2
   languageName: node
   linkType: hard
 
@@ -3732,7 +3781,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"consola@npm:^2.15.3, consola@npm:^2.6.0":
+"consola@npm:^2.13.0, consola@npm:^2.15.3, consola@npm:^2.6.0":
   version: 2.15.3
   resolution: "consola@npm:2.15.3"
   checksum: 8ef7a09b703ec67ac5c389a372a33b6dc97eda6c9876443a60d76a3076eea0259e7f67a4e54fd5a52f97df73690822d090cf8b7e102b5761348afef7c6d03e28
@@ -5741,7 +5790,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fresh@npm:0.5.2":
+"fresh@npm:0.5.2, fresh@npm:^0.5.2":
   version: 0.5.2
   resolution: "fresh@npm:0.5.2"
   checksum: 13ea8b08f91e669a64e3ba3a20eb79d7ca5379a81f1ff7f4310d54e2320645503cc0c78daedc93dfb6191287295f6479544a649c64d8e41a1c0fb0c221552346
@@ -5763,6 +5812,17 @@ __metadata:
     jsonfile: ^6.0.1
     universalify: ^2.0.0
   checksum: 5285a3d8f34b917cf2b66af8c231a40c1623626e9d701a20051d3337be16c6d7cac94441c8b3732d47a92a2a027886ca93c69b6a4ae6aee3c89650d2a8880c0a
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "fs-extra@npm:8.1.0"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^4.0.0
+    universalify: ^0.1.0
+  checksum: bf44f0e6cea59d5ce071bba4c43ca76d216f89e402dc6285c128abc0902e9b8525135aa808adad72c9d5d218e9f4bcc63962815529ff2f684ad532172a284880
   languageName: node
   linkType: hard
 
@@ -6125,6 +6185,7 @@ __metadata:
     "@iconify-json/carbon": 1.0.15
     "@iconify-json/twemoji": 1.0.2
     "@lhci/cli": 0.9.0
+    "@nuxtjs/sitemap": 2.4.0
     "@nuxtjs/strapi": 1.3.0
     "@pinia/nuxt": 0.1.8
     "@types/crypto-js": 4.1.1
@@ -6757,6 +6818,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-https@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "is-https@npm:2.0.2"
+  checksum: a9f63cacf14f670916cd4901379c60a8fe0e67d6f9eff656679d68d46085ba59bf993c928f6948d7f8289498ad63760e9a9e52992f43227302d0116da9c06451
+  languageName: node
+  linkType: hard
+
 "is-installed-globally@npm:^0.1.0":
   version: 0.1.0
   resolution: "is-installed-globally@npm:0.1.0"
@@ -7179,6 +7247,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jsonfile@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "jsonfile@npm:4.0.0"
+  dependencies:
+    graceful-fs: ^4.1.6
+  dependenciesMeta:
+    graceful-fs:
+      optional: true
+  checksum: 6447d6224f0d31623eef9b51185af03ac328a7553efcee30fa423d98a9e276ca08db87d71e17f2310b0263fd3ffa6c2a90a6308367f661dc21580f9469897c9e
+  languageName: node
+  linkType: hard
+
 "jsonfile@npm:^6.0.1":
   version: 6.1.0
   resolution: "jsonfile@npm:6.1.0"
@@ -7559,6 +7639,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.unionby@npm:^4.8.0":
+  version: 4.8.0
+  resolution: "lodash.unionby@npm:4.8.0"
+  checksum: 17fd9e980797c58f5fd9bc1343bea42b76adfb4e74ba8a784d0396f27dd145170e1d8920371d687e2acc4a2ce626864c64aff70d907627ff1d97eea4fe7e80f1
+  languageName: node
+  linkType: hard
+
 "lodash.uniq@npm:^4.5.0":
   version: 4.5.0
   resolution: "lodash.uniq@npm:4.5.0"
@@ -7615,7 +7702,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:^4.0.1":
+"lru-cache@npm:^4.0.0, lru-cache@npm:^4.0.1":
   version: 4.1.5
   resolution: "lru-cache@npm:4.1.5"
   dependencies:
@@ -10459,6 +10546,21 @@ nuxt3@latest:
   languageName: node
   linkType: hard
 
+"sitemap@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "sitemap@npm:4.1.1"
+  dependencies:
+    "@types/node": ^12.0.2
+    "@types/sax": ^1.2.0
+    arg: ^4.1.1
+    sax: ^1.2.4
+    xmlbuilder: ^13.0.0
+  bin:
+    sitemap: ./dist/cli.js
+  checksum: 29a8867dd623022b40a6cb0370b16b0060481494305d95aadd61317fa79b1755b60bbb95b1e43a3b7ace83dc53df7bbd82b48ff3c943f5a2074d6f655fa87ef3
+  languageName: node
+  linkType: hard
+
 "slash@npm:^3.0.0":
   version: 3.0.0
   resolution: "slash@npm:3.0.0"
@@ -11429,6 +11531,13 @@ nuxt3@latest:
   languageName: node
   linkType: hard
 
+"universalify@npm:^0.1.0":
+  version: 0.1.2
+  resolution: "universalify@npm:0.1.2"
+  checksum: 40cdc60f6e61070fe658ca36016a8f4ec216b29bf04a55dce14e3710cc84c7448538ef4dad3728d0bfe29975ccd7bfb5f414c45e7b78883567fb31b246f02dff
+  languageName: node
+  linkType: hard
+
 "universalify@npm:^2.0.0":
   version: 2.0.0
   resolution: "universalify@npm:2.0.0"
@@ -12157,6 +12266,13 @@ nuxt3@latest:
   version: 4.0.0
   resolution: "xdg-basedir@npm:4.0.0"
   checksum: 0073d5b59a37224ed3a5ac0dd2ec1d36f09c49f0afd769008a6e9cd3cd666bd6317bd1c7ce2eab47e1de285a286bad11a9b038196413cd753b79770361855f3c
+  languageName: node
+  linkType: hard
+
+"xmlbuilder@npm:^13.0.0":
+  version: 13.0.2
+  resolution: "xmlbuilder@npm:13.0.2"
+  checksum: 03b316a8f6f9ab188f4b3a04a224782b8ef1f5e517773ef719a044e7267bad1c081a57bbcbfc43247d2dad168d55de54fbc62d4ed8524cadeb433a62bd8583dd
   languageName: node
   linkType: hard
 
