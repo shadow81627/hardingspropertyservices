@@ -1,5 +1,12 @@
 # Releases
 
+# [1.6.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.5.0...v1.6.0) (2022-03-30)
+
+
+### Features
+
+* sitemap ([#32](https://github.com/shadow81627/hardingspropertyservices/issues/32)) ([6b8b67b](https://github.com/shadow81627/hardingspropertyservices/commit/6b8b67b1a6654688156987fa9d1fec7458cad67f))
+
 # [1.5.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.4.1...v1.5.0) (2022-03-30)
 
 
