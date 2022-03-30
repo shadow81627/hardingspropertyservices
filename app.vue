@@ -12,15 +12,17 @@
       <Navigation />
       <main class="px-10 mb-auto">
         <NuxtPage />
-        <Footer />
       </main>
-      <footer class="text-center lg:text-left">
-        <div class="text-center p-6">
-          <small>
-            <a href="https://daim.dev" target="__blank"
-              >Site by Damien Robinson</a
-            >
-          </small>
+      <footer>
+        <SocialLinks />
+        <div class="text-center lg:text-left">
+          <div class="text-center p-6">
+            <small>
+              <a href="https://daim.dev" target="__blank"
+                >Site by Damien Robinson</a
+              >
+            </small>
+          </div>
         </div>
       </footer>
     </div>
