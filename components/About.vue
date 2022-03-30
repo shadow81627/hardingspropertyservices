@@ -29,7 +29,11 @@
       >
         <span itemprop="name">Harding's Property Services</span>
         <span itemprop="telephone">0487 950 940</span>
-        <a itemprop="image" href="https://hardingspropertyservices.com.au/hardings-property-1200x600.png">Image</a>
+        <a
+          itemprop="image"
+          href="https://hardingspropertyservices.com.au/hardings-property-1200x600.png"
+          >Image</a
+        >
         <a itemprop="url" href="https://hardingspropertyservices.com.au">
           <span>Website</span>
         </a>
@@ -45,10 +49,7 @@
         >
           <span>Facebook</span>
         </a>
-        <a
-          itemprop="sameAs"
-          href="https://g.co/kgs/X69CKJ"
-        >
+        <a itemprop="sameAs" href="https://g.co/kgs/X69CKJ">
           <span>Google</span>
         </a>
       </span>
@@ -63,16 +64,16 @@
       </div>
 
       <ul
-        class="list-disc list-inside py-2 flex justify-between flex-wrap"
         v-if="content"
+        class="list-disc list-inside py-2 flex justify-between flex-wrap"
         itemprop="hasOfferCatalog"
         itemscope
         itemtype="https://schema.org/OfferCatalog"
       >
         <li
-          class="md:px-2 py-2 flex-auto w-full md:w-auto"
           v-for="service of content.services"
           :key="service.name"
+          class="md:px-2 py-2 flex-auto w-full md:w-auto"
           itemprop="itemListElement"
           itemscope
           itemtype="https://schema.org/Offer"

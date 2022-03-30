@@ -16,5 +16,5 @@ export default function nLegacyFormat(args: legacyFormatOptions): string {
     webp: isTransparent(src) ? 'png' : 'jpeg',
     svg: 'png',
   }
-  return formats[nFormat({src})] || originalFormat(src)
+  return formats[nFormat({ src })] || originalFormat(src)
 }

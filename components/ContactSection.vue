@@ -15,7 +15,6 @@
       md:flex-row
       flex-col
       bg-opacity-75
-
       dark:bg-gray-900
       dark:text-gray-300
       dark:bg-opacity-75

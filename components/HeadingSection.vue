@@ -9,7 +9,9 @@
         font-brand
       >
         <span>{{ first }}</span>
-        <br /><span text-2xl sm:text-3xl md:text-4xl xl:text-5xl leading-none>{{ second }}</span>
+        <br /><span text-2xl sm:text-3xl md:text-4xl xl:text-5xl leading-none>{{
+          second
+        }}</span>
       </h1>
       <slot>
         <!-- <a class="inline-block px-7 py-3 bg-transparent text-primary-600 font-medium text-sm leading-snug uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">Learn more</a> -->
