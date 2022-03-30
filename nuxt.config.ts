@@ -47,7 +47,7 @@ export default defineNuxtConfig({
       },
     ],
   },
-  modules: ['vue-plausible', '@formkit/nuxt'],
+  modules: ['vue-plausible', '@formkit/nuxt', '@nuxtjs/sitemap'],
   buildModules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
@@ -55,6 +55,12 @@ export default defineNuxtConfig({
     // '@nuxtjs/strapi',
     'nuxt-lodash',
   ],
+  sitemap: {
+    hostname: BASE_URL,
+    routes: ['/', '/contact', '/gallery'],
+    // i18n: 'en',
+    xslUrl: '/sitemap.xsl',
+  },
   vite: {
     build: {
       sourcemap: true,
