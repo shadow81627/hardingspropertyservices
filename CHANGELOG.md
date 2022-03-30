@@ -1,5 +1,12 @@
 # Releases
 
+# [1.2.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.1.2...v1.2.0) (2022-03-30)
+
+
+### Features
+
+* about strapi fetch ([#31](https://github.com/shadow81627/hardingspropertyservices/issues/31)) ([906a15b](https://github.com/shadow81627/hardingspropertyservices/commit/906a15b201a6163ea1d2de06099e6035fa16e266))
+
 ## [1.1.2](https://github.com/shadow81627/hardingspropertyservices/compare/v1.1.1...v1.1.2) (2022-03-30)
 
 
