@@ -6,6 +6,8 @@
           v-for="{ src, title, url } in gallery"
           :key="src"
           class="flex flex-wrap md:w-1/3 sm:w-full"
+          itemscope
+          itemtype="https://schema.org/ImageObject"
         >
           <Component
             :is="url ? 'NuxtLink' : 'div'"
@@ -22,6 +24,7 @@
               width="416"
               height="555"
               sizes="sm:100vw md:33vw lg:416px"
+              itemprop="contentUrl"
             />
             <div
               v-if="title"
@@ -29,6 +32,7 @@
               text-lg
               opacity-75
               text-white
+              itemprop="name"
             >
               {{ title }}
             </div>
