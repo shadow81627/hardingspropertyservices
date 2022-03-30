@@ -1,16 +1,19 @@
 <template>
-  <Html lang="en-AU">
-    <!-- <Script type="application/ld+json" :children="jsonLD" /> -->
+  <Html lang="en-AU" itemscope itemtype="https://schema.org/WebPage">
     <div id="bg">
       <Picture
         :src="backgroundImage"
         alt=""
         sizes="sm:100vw md:100vw lg:100vw"
-      ></Picture>
+      />
     </div>
     <div class="min-h-screen flex flex-col justify-between body">
       <Navigation />
-      <main class="px-10 mb-auto">
+      <main
+        class="px-10 mb-auto"
+        itemprop="mainContentOfPage"
+        itemtype="https://schema.org/WebPageElement"
+      >
         <NuxtPage />
       </main>
       <footer>
@@ -35,7 +38,7 @@ export default {
     const config = useRuntimeConfig()
     const backgroundImage =
       'https://s3.ap-northeast-2.wasabisys.com/strapi.daim.dev/strapi.daim.dev/magdalena_w_P7_QAK_Mwl_G4_unsplash_45e919d1b5.jpg?updated_at=2022-03-29T22:20:37.965Z'
-    const jsonLD = JSON.stringify({
+    JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'Service',
       serviceType: 'Handyman',
@@ -43,59 +46,13 @@ export default {
         '@type': 'LocalBusiness',
         name: config.APP_NAME,
         // 'telephone': '0487 950 940',
-        url: 'https://hardingspropertyservices.com.au',
-        sameAs: [
-          'https://www.instagram.com/hardingspropertyservices/',
-          'https://www.facebook.com/hardingspropertyservices',
-        ],
       },
       areaServed: {
         '@type': 'City',
         name: ['Beaudesert', 'Kooralbyn'],
       },
-      hasOfferCatalog: {
-        '@type': 'OfferCatalog',
-        name: 'Property services',
-        itemListElement: [
-          {
-            '@type': 'Offer',
-            itemOffered: {
-              '@type': 'Service',
-              name: 'Property maintenance',
-            },
-          },
-          {
-            '@type': 'Offer',
-            itemOffered: {
-              '@type': 'Service',
-              name: 'Lawn mowing',
-            },
-          },
-          {
-            '@type': 'Offer',
-            itemOffered: {
-              '@type': 'Service',
-              name: 'General handyman services',
-            },
-          },
-          {
-            '@type': 'Offer',
-            itemOffered: {
-              '@type': 'Service',
-              name: 'Odd jobs',
-            },
-          },
-          {
-            '@type': 'Offer',
-            itemOffered: {
-              '@type': 'Service',
-              name: 'Flat pack assembly',
-            },
-          },
-        ],
-      },
     })
-    return { jsonLD, backgroundImage }
+    return { backgroundImage }
   },
 }
 </script>
