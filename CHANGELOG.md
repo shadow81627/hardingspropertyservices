@@ -1,5 +1,14 @@
 # Releases
 
+## [1.4.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.4.0...v1.4.1) (2022-03-30)
+
+
+### Bug Fixes
+
+* **about:** name title case ([5c6cd95](https://github.com/shadow81627/hardingspropertyservices/commit/5c6cd953f4759712980f4782c5c972719ae0aa8b))
+* **about:** remove same as names ([89becbe](https://github.com/shadow81627/hardingspropertyservices/commit/89becbeaee65e38127313d25ce1cd3d0fe45edf7))
+* **home:** title and description micro data ([92d90ba](https://github.com/shadow81627/hardingspropertyservices/commit/92d90ba7a77bb6f4426727df8f741974174688a8))
+
 # [1.4.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.3.1...v1.4.0) (2022-03-30)
 
 
