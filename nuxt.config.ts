@@ -54,7 +54,20 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     // '@nuxtjs/strapi',
     'nuxt-lodash',
+    '@unlighthouse/nuxt',
   ],
+  unlighthouse: {
+    scanner: {
+      device: 'mobile',
+    },
+    headless: true,
+    devtools: false,
+    // debug: true,
+    puppeteerOptions: {
+      executablePath: '/usr/bin/google-chrome',
+      ignoreDefaultArgs: ['--disable-extensions'],
+    },
+  },
   sitemap: {
     hostname: BASE_URL,
     routes: ['/', '/contact', '/gallery'],
