@@ -1,10 +1,9 @@
 <template>
-  <Html itemscope itemtype="https://schema.org/MediaGallery">
-    <div>
-      <HeadingSection :first="title" />
-      <Gallery :gallery="gallery" />
-    </div>
-  </Html>
+  <div>
+    <Html itemscope itemtype="https://schema.org/MediaGallery" />
+    <HeadingSection :first="title" />
+    <Gallery :gallery="gallery" />
+  </div>
 </template>
 
 <script lang="ts">

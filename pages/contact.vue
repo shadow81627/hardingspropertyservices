@@ -1,8 +1,7 @@
 <template>
-  <Html itemscope itemtype="https://schema.org/ContactPage">
-    <div>
-      <HeadingSection first="Contact" />
-      <ContactForm />
-    </div>
-  </Html>
+  <div>
+    <Html itemscope itemtype="https://schema.org/ContactPage" />
+    <HeadingSection first="Contact" />
+    <ContactForm />
+  </div>
 </template>
