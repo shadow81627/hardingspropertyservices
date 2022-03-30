@@ -1,5 +1,14 @@
 # Releases
 
+# [1.3.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.2.0...v1.3.0) (2022-03-30)
+
+
+### Features
+
+* **about:** microdata offers ([3198a31](https://github.com/shadow81627/hardingspropertyservices/commit/3198a314030564df89054afe80ecae165574b50e))
+* **links:** add microdata ([e2e11e9](https://github.com/shadow81627/hardingspropertyservices/commit/e2e11e95bbb685424c1497ced15675d0e9408992))
+* **pages:** add explicit wepage microdata ([cc38277](https://github.com/shadow81627/hardingspropertyservices/commit/cc382777a245da6c824c2bf3f5a0cda73e8f78b7))
+
 # [1.2.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.1.2...v1.2.0) (2022-03-30)
 
 
