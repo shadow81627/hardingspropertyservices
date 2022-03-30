@@ -1,10 +1,11 @@
 <template>
   <div>
-    <Title v-if="content?.title">{{ content?.title }}</Title>
+    <Title v-if="content?.title" itemprop="name">{{ content?.title }}</Title>
     <Meta
       v-if="content?.description"
       name="description"
       :content="content?.description"
+      itemprop="description"
     />
     <HeadingSection first="Harding&rsquo;s" second="Property Services">
       <NuxtLink
