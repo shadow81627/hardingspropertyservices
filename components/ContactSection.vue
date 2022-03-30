@@ -15,6 +15,10 @@
       md:flex-row
       flex-col
       bg-opacity-75
+
+      dark:bg-gray-900
+      dark:text-gray-300
+      dark:bg-opacity-75
     >
       <h2 class="font-semibold text-3xl">Have an Enquiry?</h2>
       <NuxtLink

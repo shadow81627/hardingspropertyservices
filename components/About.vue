@@ -14,6 +14,10 @@
       bg-gray-100
       text-gray-700
       bg-opacity-75
+
+      dark:bg-gray-900
+      dark:text-gray-300
+      dark:bg-opacity-75
     >
       <p>
         Wayne Harding has a lifelong passion for home improvement and
@@ -44,6 +48,7 @@
         <NuxtLink
           to="/contact"
           class="text-primary-600 hover:text-primary-700 transition duration-300 ease-in-out"
+          dark:text-white-600 dark:hover:text-white-700
           font-bold
         >
           contact form on our website </NuxtLink
