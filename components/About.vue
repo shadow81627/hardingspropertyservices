@@ -1,5 +1,5 @@
 <template>
-  <section container px-5 py-2 mx-auto lg:pt-12 lg:px-32>
+  <section container py-2 mx-auto lg:pt-12 lg:px-32>
     <div
       flex
       flex-wrap

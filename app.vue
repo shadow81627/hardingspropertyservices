@@ -10,7 +10,7 @@
     <div class="min-h-screen flex flex-col justify-between body">
       <Navigation />
       <main
-        class="px-10 mb-auto"
+        class="px-5 mb-auto"
         itemprop="mainContentOfPage"
         itemtype="https://schema.org/WebPageElement"
       >
