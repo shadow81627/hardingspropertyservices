@@ -1,5 +1,12 @@
 # Releases
 
+## [1.6.2](https://github.com/shadow81627/hardingspropertyservices/compare/v1.6.1...v1.6.2) (2022-04-01)
+
+
+### Bug Fixes
+
+* halve padding for mobile ([a1764cc](https://github.com/shadow81627/hardingspropertyservices/commit/a1764cc4b2472615edd2f14654df7f0d84036e18))
+
 ## [1.6.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.6.0...v1.6.1) (2022-03-30)
 
 
