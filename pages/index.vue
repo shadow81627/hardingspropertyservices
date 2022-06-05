@@ -25,6 +25,7 @@
     </HeadingSection>
     <About class="mb-24" />
     <Gallery :gallery="content?.gallery" />
+    <Testimonials :items="content?.testimonials"></Testimonials>
     <ContactSection class="mt-24" />
   </div>
 </template>
@@ -59,6 +60,14 @@ export default {
           title,
           description,
           gallery,
+          testimonials: [
+            {
+              name: 'Andrew Hughes',
+              rating: 5,
+              description:
+                'Fantastic service from start to finish. Really happy with the result of Wayne’s work really transformed the area. Thank-you so much highly recommend Wayne 👌',
+            },
+          ],
         }
       } catch (error) {
         console.error(error)
