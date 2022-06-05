@@ -1,5 +1,12 @@
 # Releases
 
+# [1.7.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.6.2...v1.7.0) (2022-06-05)
+
+
+### Features
+
+* **home page:** testimonials section ([fbd4b57](https://github.com/shadow81627/hardingspropertyservices/commit/fbd4b57c4ab400d4058e7a64e3128550f3107226))
+
 ## [1.6.2](https://github.com/shadow81627/hardingspropertyservices/compare/v1.6.1...v1.6.2) (2022-04-01)
 
 
