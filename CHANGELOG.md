@@ -1,5 +1,12 @@
 # Releases
 
+# [1.8.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.7.0...v1.8.0) (2022-11-05)
+
+
+### Features
+
+* **background image:** change to grass ([#38](https://github.com/shadow81627/hardingspropertyservices/issues/38)) ([e07a349](https://github.com/shadow81627/hardingspropertyservices/commit/e07a3490bdda56a04608e4659beba2435586ee3b))
+
 # [1.7.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.6.2...v1.7.0) (2022-06-05)
 
 
