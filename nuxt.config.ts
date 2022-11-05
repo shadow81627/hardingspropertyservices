@@ -67,7 +67,22 @@ export default defineNuxtConfig({
     xslUrl: '/sitemap.xsl',
   },
   image: {
-    domains: ['images.unsplash.com', 's3.ap-northeast-2.wasabisys.com'],
+    // baseUrl: CDN_URL,
+    provider: 'imgproxy',
+    domains: [
+      'images.unsplash.com',
+      's3.ap-northeast-2.wasabisys.com',
+      'imgproxy.daim.dev',
+    ],
+    providers: {
+      imgproxy: {
+        provider: '~/utils/imgproxy',
+        options: {
+          key: process.env.IMGPROXY_KEY,
+          salt: process.env.IMGPROXY_SALT,
+        },
+      },
+    },
   },
   vite: {
     build: {

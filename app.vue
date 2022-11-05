@@ -1,7 +1,7 @@
 <template>
   <Html lang="en-AU" itemscope itemtype="https://schema.org/WebPage">
     <div id="bg" class="bg-dark">
-      <Picture
+      <nuxt-picture
         :src="backgroundImage"
         alt=""
         sizes="sm:100vw md:100vw lg:100vw"

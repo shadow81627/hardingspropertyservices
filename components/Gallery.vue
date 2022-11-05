@@ -17,7 +17,7 @@
             overflow-hidden
             rounded-lg
           >
-            <Picture
+            <nuxt-picture
               :src="src"
               :alt="title"
               class="block object-cover object-center w-full h-full"
