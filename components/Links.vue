@@ -27,17 +27,17 @@ export default {
     classes(url) {
       const isActive = this.$route.path === url
       return {
-        'text-primary-500': !isActive,
-        'text-primary-900': isActive,
-        'hover:text-primary-700': !isActive,
-        'focus:text-primary-700': !isActive,
-        'border-primary-500': isActive,
+        'text-dark-500': !isActive,
+        'text-dark-900': isActive,
+        'hover:text-dark-700': !isActive,
+        'focus:text-dark-700': !isActive,
+        'border-dark-500': isActive,
 
-        'dark:text-white-500': !isActive,
-        'dark:text-white-900': isActive,
-        'dark:hover:text-white-700': !isActive,
-        'dark:focus:text-white-700': !isActive,
-        'dark:border-white-500': isActive,
+        'dark:text-light-500': !isActive,
+        'dark:text-light-900': isActive,
+        'dark:hover:text-light-700': !isActive,
+        'dark:focus:text-light-700': !isActive,
+        'dark:border-light-500': isActive,
 
         'border-transparent': !isActive,
       }

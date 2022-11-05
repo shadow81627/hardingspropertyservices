@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt/config'
 import { withBase } from 'ufo'
 
 const APP_NAME = "Harding's Property Services"
@@ -47,7 +47,12 @@ export default defineNuxtConfig({
       },
     ],
   },
-  modules: ['vue-plausible', '@formkit/nuxt', '@nuxtjs/sitemap'],
+  modules: [
+    'vue-plausible',
+    '@formkit/nuxt',
+    // '@nuxtjs/sitemap',
+    '@nuxt/image-edge',
+  ],
   buildModules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
@@ -60,6 +65,24 @@ export default defineNuxtConfig({
     routes: ['/', '/contact', '/gallery'],
     // i18n: 'en',
     xslUrl: '/sitemap.xsl',
+  },
+  image: {
+    // baseUrl: CDN_URL,
+    provider: 'imgproxy',
+    domains: [
+      'images.unsplash.com',
+      's3.ap-northeast-2.wasabisys.com',
+      'imgproxy.daim.dev',
+    ],
+    providers: {
+      imgproxy: {
+        provider: '~/utils/imgproxy',
+        options: {
+          key: process.env.IMGPROXY_KEY,
+          salt: process.env.IMGPROXY_SALT,
+        },
+      },
+    },
   },
   vite: {
     build: {
@@ -94,10 +117,9 @@ export default defineNuxtConfig({
       },
     },
     shortcuts: [
-      [
-        'btn',
-        'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50',
-      ],
+      {
+        'section-bg': `rounded-lg bg-gray-100 text-gray-700 bg-opacity-90 dark:bg-gray-900 dark:text-gray-300 dark:bg-opacity-90`,
+      },
     ],
   },
 })

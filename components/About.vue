@@ -10,13 +10,7 @@
       mx-auto
       lg:py-12
       lg:px-32
-      rounded-lg
-      bg-gray-100
-      text-gray-700
-      bg-opacity-75
-      dark:bg-gray-900
-      dark:text-gray-300
-      dark:bg-opacity-75
+      section-bg
       itemscope
       itemtype="https://schema.org/Service"
     >

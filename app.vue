@@ -1,7 +1,7 @@
 <template>
   <Html lang="en-AU" itemscope itemtype="https://schema.org/WebPage">
-    <div id="bg">
-      <Picture
+    <div id="bg" class="bg-dark">
+      <NuxtPicture
         :src="backgroundImage"
         alt=""
         sizes="sm:100vw md:100vw lg:100vw"
@@ -18,7 +18,7 @@
       </main>
       <footer>
         <SocialLinks />
-        <div class="text-center lg:text-left">
+        <div class="text-center lg:text-left text-white">
           <div class="text-center p-6">
             <small>
               <a href="https://daim.dev" target="__blank"
@@ -37,7 +37,7 @@ export default {
   setup() {
     const config = useRuntimeConfig()
     const backgroundImage =
-      'https://s3.ap-northeast-2.wasabisys.com/strapi.daim.dev/strapi.daim.dev/magdalena_w_P7_QAK_Mwl_G4_unsplash_45e919d1b5.jpg?updated_at=2022-03-29T22:20:37.965Z'
+      'https://images.unsplash.com/photo-1552761831-7ef8ec07adbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1002&q=80'
     JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'Service',
@@ -60,10 +60,10 @@ export default {
 <style>
 @import '~/styles/main.css';
 
-html.light .body {
+/* html.light .body {
   box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.1);
-}
-html.dark .body {
+} */
+html .body {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
 }
 
