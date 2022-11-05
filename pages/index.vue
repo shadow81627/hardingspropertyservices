@@ -53,7 +53,7 @@ export default {
           }) => ({
             title,
             src: url,
-            url: `/gallery/${useKebabCase(title)}`,
+            url: title ? `/gallery/${useKebabCase(title)}` : undefined,
           }),
         )
         return {

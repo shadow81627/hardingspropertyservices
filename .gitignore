@@ -24,3 +24,5 @@ package-lock.json
 !.yarn/versions
 /.yarn/releases/** binary
 /.yarn/plugins/** binary
+
+.unlighthouse

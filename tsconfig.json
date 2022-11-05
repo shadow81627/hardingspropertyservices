@@ -5,5 +5,5 @@
     "importHelpers": true,
   },
   "extends": "./.nuxt/tsconfig.json",
-  "types": [ "@types/crypto-js"]
+  "types": [ "@types/crypto-js", "@unlighthouse/nuxt"]
 }
