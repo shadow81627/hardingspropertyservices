@@ -32,7 +32,7 @@
     "@types/crypto-js": "4.1.1",
     "@typescript-eslint/eslint-plugin": "5.13.0",
     "@typescript-eslint/parser": "5.13.0",
-    "@unocss/nuxt": "0.30.2",
+    "@unocss/nuxt": "0.46.3",
     "@vue/eslint-config-standard": "6.1.0",
     "@vueuse/core": "9.4.0",
     "@vueuse/nuxt": "9.4.0",
