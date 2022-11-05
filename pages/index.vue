@@ -9,14 +9,14 @@
     />
     <HeadingSection first="Harding&rsquo;s" second="Property Services">
       <NuxtLink
-        class="inline-block px-7 py-3 mr-2 bg-primary-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out"
+        class="inline-block px-7 py-3 mr-2 bg-primary text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-primary hover:shadow-lg focus:bg-primary focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary active:shadow-lg transition duration-150 ease-in-out"
         to="/contact"
         role="button"
       >
         Contact us
       </NuxtLink>
       <NuxtLink
-        class="inline-block px-7 py-3 bg-transparent text-white-600 font-medium text-sm leading-snug uppercase rounded hover:text-primary-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
+        class="inline-block px-7 py-3 bg-transparent text-white font-medium text-sm leading-snug uppercase rounded hover:text-primary hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
         to="/gallery"
         role="button"
       >

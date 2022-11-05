@@ -19,7 +19,7 @@
         message-class="text-red-600 text-lg"
         :submit-attrs="{
           inputClass:
-            'my-2 mb-2 w-full inline-block px-6 py-2.5 bg-primary-600 text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out',
+            'my-2 mb-2 w-full inline-block px-6 py-2.5 bg-primary text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-primary hover:shadow-lg focus:bg-primary focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary active:shadow-lg transition duration-150 ease-in-out',
         }"
         @submit="submit"
       >
@@ -45,7 +45,7 @@
         ease-in-out
         m-0
         my-2
-        focus:text-gray-700 focus:bg-white focus:border-primary-600 focus:outline-none"
+        focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none"
             name="name"
             label="Name"
             placeholder="Name"
@@ -70,7 +70,7 @@
         ease-in-out
         m-0
         my-2
-        focus:text-gray-700 focus:bg-white focus:border-primary-600 focus:outline-none"
+        focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none"
             name="_replyto"
             label="Email Address"
             placeholder="Email Address"
@@ -95,7 +95,7 @@
         ease-in-out
         m-0
         my-2
-        focus:text-gray-700 focus:bg-white focus:border-primary-600 focus:outline-none"
+        focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none"
             name="address"
             label="Address"
             placeholder="Address"
@@ -119,7 +119,7 @@
         ease-in-out
         m-0
         my-2
-        focus:text-gray-700 focus:bg-white focus:border-primary-600 focus:outline-none"
+        focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none"
             name="_subject"
             label="Subject"
             placeholder="Subject"
@@ -144,7 +144,7 @@
         ease-in-out
         m-0
         my-2
-        focus:text-gray-700 focus:bg-white focus:border-primary-600 focus:outline-none"
+        focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none"
             name="message"
             label="Message"
             placeholder="Message"

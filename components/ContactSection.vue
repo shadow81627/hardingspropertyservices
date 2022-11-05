@@ -17,7 +17,7 @@
         ml-auto
         my-4
         md:my-0
-        class="inline-block px-6 py-2.5 bg-primary-600 text-white font-medium text-lg leading-tight uppercase rounded shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out"
+        class="inline-block px-6 py-2.5 bg-primary text-white font-medium text-lg leading-tight uppercase rounded shadow-md hover:bg-primary hover:shadow-lg focus:bg-primary focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary active:shadow-lg transition duration-150 ease-in-out"
       >
         Contact Us
       </NuxtLink>

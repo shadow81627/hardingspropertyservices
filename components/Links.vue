@@ -33,11 +33,11 @@ export default {
         'focus:text-dark-700': !isActive,
         'border-dark-500': isActive,
 
-        'dark:text-white-500': !isActive,
-        'dark:text-white-900': isActive,
-        'dark:hover:text-white-700': !isActive,
-        'dark:focus:text-white-700': !isActive,
-        'dark:border-white-500': isActive,
+        'dark:text-light-500': !isActive,
+        'dark:text-light-900': isActive,
+        'dark:hover:text-light-700': !isActive,
+        'dark:focus:text-light-700': !isActive,
+        'dark:border-light-500': isActive,
 
         'border-transparent': !isActive,
       }
