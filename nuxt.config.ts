@@ -66,6 +66,9 @@ export default defineNuxtConfig({
     // i18n: 'en',
     xslUrl: '/sitemap.xsl',
   },
+  image: {
+    domains: ['images.unsplash.com', 's3.ap-northeast-2.wasabisys.com'],
+  },
   vite: {
     build: {
       sourcemap: true,
