@@ -2,7 +2,7 @@
   <section
     class="container-fluid flex flex-wrap items-center justify-between flex-col"
   >
-    <div class="mb-3 xl:w-96">
+    <div class="mb-3 xl:w-96 p-4" section-bg>
       <div v-if="success" class="flex items-center flex-col">
         <div class="text-green-600 i-carbon-checkmark-filled text-8xl" />
         <h2 class="font-medium leading-tight text-4xl mt-0 mb-4" text-center>
@@ -75,6 +75,30 @@
             label="Email Address"
             placeholder="Email Address"
             validation="required|email"
+            validation-behavior="live"
+          />
+
+          <FormKit
+            label-class="form-label inline-block mb-2 text-xl"
+            input-class="form-control
+        block
+        w-full
+        px-4
+        py-2
+        text-xl
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        my-2
+        focus:text-gray-700 focus:bg-white focus:border-primary-600 focus:outline-none"
+            name="address"
+            label="Address"
+            placeholder="Address"
             validation-behavior="live"
           />
 

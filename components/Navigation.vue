@@ -1,10 +1,8 @@
 <template>
   <nav
     class="relative w-full flex flex-wrap items-center justify-between"
-    bg-white
-    dark:bg-black
-    bg-opacity-25
-    dark:bg-opacity-25
+    section-bg
+    rounded-none
   >
     <div
       class="container-fluid w-full flex flex-wrap items-center justify-between px-6"

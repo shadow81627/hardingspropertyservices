@@ -16,7 +16,7 @@
         Contact us
       </NuxtLink>
       <NuxtLink
-        class="inline-block px-7 py-3 bg-transparent text-primary-600 font-medium text-sm leading-snug uppercase rounded hover:text-primary-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
+        class="inline-block px-7 py-3 bg-transparent text-white-600 font-medium text-sm leading-snug uppercase rounded hover:text-primary-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
         to="/gallery"
         role="button"
       >

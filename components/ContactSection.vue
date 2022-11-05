@@ -9,16 +9,7 @@
     text-center
     md:text-left
   >
-    <div
-      class="p-8 rounded-lg bg-gray-100 text-gray-700"
-      flex
-      md:flex-row
-      flex-col
-      bg-opacity-75
-      dark:bg-gray-900
-      dark:text-gray-300
-      dark:bg-opacity-75
-    >
+    <div class="p-8" flex md:flex-row flex-col section-bg>
       <h2 class="font-semibold text-3xl">Have an Enquiry?</h2>
       <NuxtLink
         type="button"

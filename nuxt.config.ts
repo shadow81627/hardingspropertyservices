@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt'
 import { withBase } from 'ufo'
 
 const APP_NAME = "Harding's Property Services"
@@ -47,7 +47,12 @@ export default defineNuxtConfig({
       },
     ],
   },
-  modules: ['vue-plausible', '@formkit/nuxt', '@nuxtjs/sitemap'],
+  modules: [
+    'vue-plausible',
+    '@formkit/nuxt',
+    // '@nuxtjs/sitemap',
+    '@nuxt/image-edge',
+  ],
   buildModules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
@@ -98,6 +103,9 @@ export default defineNuxtConfig({
         'btn',
         'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50',
       ],
+      {
+        'section-bg': `rounded-lg bg-gray-100 text-gray-700 bg-opacity-90 dark:bg-gray-900 dark:text-gray-300 dark:bg-opacity-90`,
+      },
     ],
   },
 })

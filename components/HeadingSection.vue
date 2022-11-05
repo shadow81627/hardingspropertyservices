@@ -1,10 +1,10 @@
 <template>
-  <section>
-    <div class="text-center py-24 px-6">
+  <section container py-2 mx-auto lg:pt-32 lg:px-64>
+    <div text-center py-12 px-6 mx-auto>
       <h1
         class="text-3xl sm:text-4xl md:text-6xl xl:text-7xl mb-12"
         leading-none
-        text-primary-600
+        text-white-600
         uppercase
         font-brand
       >
