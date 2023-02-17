@@ -1,5 +1,5 @@
 <template>
-  <Html lang="en-AU" itemscope itemtype="https://schema.org/WebPage">
+  <Html lang="en-AU" itemscope="" itemtype="https://schema.org/WebPage">
     <div id="bg" class="bg-dark">
       <NuxtPicture
         :src="backgroundImage"
@@ -33,6 +33,7 @@
 </template>
 
 <script lang="ts">
+import { withBase } from 'ufo'
 export default {
   setup() {
     const config = useRuntimeConfig()
@@ -51,6 +52,35 @@ export default {
         '@type': 'City',
         name: ['Beaudesert', 'Kooralbyn'],
       },
+    })
+    useHead({
+      title: config.APP_NAME,
+      meta: [
+        { name: 'description', content: config.APP_NAME },
+        { name: 'apple-mobile-web-app-status-bar', content: 'black' },
+        { name: 'theme-color', content: 'black' },
+        {
+          property: 'og:image',
+          content: withBase('/hardings-property-1200x600.png', config.CDN_URL),
+        },
+        { property: 'og:image:type', content: 'image/png' },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '600' },
+        { property: 'og:image:alt', content: "Harding's Property Services" },
+      ],
+      link: [
+        { rel: 'manifest', href: withBase('/manifest.json', config.CDN_URL) },
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: withBase('/favicon.ico', config.CDN_URL),
+        },
+        {
+          rel: 'apple-touch-icon',
+          type: 'image/png',
+          href: withBase('/apple-touch-icon.png', config.CDN_URL),
+        },
+      ],
     })
     return { backgroundImage }
   },
