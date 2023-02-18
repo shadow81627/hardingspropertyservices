@@ -1,5 +1,12 @@
 # Releases
 
+# [1.9.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.8.1...v1.9.0) (2023-02-18)
+
+
+### Features
+
+* sentry ([#25](https://github.com/shadow81627/hardingspropertyservices/issues/25)) ([1cee8d0](https://github.com/shadow81627/hardingspropertyservices/commit/1cee8d04bb1c7bc1ab84ca26f90a53f8a904b882))
+
 ## [1.8.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.8.0...v1.8.1) (2023-02-18)
 
 
