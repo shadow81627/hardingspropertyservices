@@ -48,6 +48,6 @@
     "nuxt": "3.2.2",
     "nuxt-lodash": "2.4.1",
     "prettier": "2.8.4",
-    "typescript": "4.5.5"
+    "typescript": "4.9.5"
   }
 }
