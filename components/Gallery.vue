@@ -26,7 +26,9 @@
               sizes="sm:100vw md:33vw lg:416px"
               itemprop="contentUrl"
               loading="lazy"
-              :imgAttrs="{class: 'block object-fit object-center w-full h-full'}"
+              :img-attrs="{
+                class: 'block object-fit object-center w-full h-full',
+              }"
             />
             <div
               v-if="title"
