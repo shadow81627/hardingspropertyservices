@@ -9,7 +9,6 @@ main = "./.output/server/index.mjs"
 
 [site]
 bucket = ".output/public"
-entry-point = ".output"
 
 [build]
 command = "true"
