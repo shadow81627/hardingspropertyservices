@@ -1,5 +1,12 @@
 # Releases
 
+## [1.9.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.9.0...v1.9.1) (2023-02-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency js-base64 to v3.7.5 ([#41](https://github.com/shadow81627/hardingspropertyservices/issues/41)) ([9e7bcf3](https://github.com/shadow81627/hardingspropertyservices/commit/9e7bcf341097d85c0b735d896d5347df6e1a4ac8))
+
 # [1.9.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.8.1...v1.9.0) (2023-02-18)
 
 
