@@ -1,5 +1,12 @@
 # Releases
 
+## [1.9.2](https://github.com/shadow81627/hardingspropertyservices/compare/v1.9.1...v1.9.2) (2023-02-18)
+
+
+### Bug Fixes
+
+* **gallery:** risizing_type fill ([84f6cef](https://github.com/shadow81627/hardingspropertyservices/commit/84f6cef500e23a9400ceb4daba8c2f62b85cf85a))
+
 ## [1.9.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.9.0...v1.9.1) (2023-02-18)
 
 
