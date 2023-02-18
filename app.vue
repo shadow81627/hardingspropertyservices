@@ -1,5 +1,5 @@
 <template>
-  <Html lang="en-AU" itemscope itemtype="https://schema.org/WebPage">
+  <Html lang="en-AU" itemscope="" itemtype="https://schema.org/WebPage">
     <div id="bg" class="bg-dark">
       <NuxtPicture
         :src="backgroundImage"
@@ -51,6 +51,35 @@ export default {
         '@type': 'City',
         name: ['Beaudesert', 'Kooralbyn'],
       },
+    })
+    useHead({
+      title: config.APP_NAME,
+      meta: [
+        { name: 'description', content: config.APP_NAME },
+        { name: 'apple-mobile-web-app-status-bar', content: 'black' },
+        { name: 'theme-color', content: 'black' },
+        {
+          property: 'og:image',
+          content: '/hardings-property-1200x600.png',
+        },
+        { property: 'og:image:type', content: 'image/png' },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '600' },
+        { property: 'og:image:alt', content: "Harding's Property Services" },
+      ],
+      link: [
+        { rel: 'manifest', href: '/manifest.json' },
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: '/favicon.ico',
+        },
+        {
+          rel: 'apple-touch-icon',
+          type: 'image/png',
+          href: '/apple-touch-icon.png',
+        },
+      ],
     })
     return { backgroundImage }
   },
