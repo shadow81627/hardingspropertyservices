@@ -1,5 +1,12 @@
 # Releases
 
+## [1.8.1](https://github.com/shadow81627/hardingspropertyservices/compare/v1.8.0...v1.8.1) (2023-02-18)
+
+
+### Bug Fixes
+
+* **deps:** update nuxt to 3.2.2 ([#40](https://github.com/shadow81627/hardingspropertyservices/issues/40)) ([760fd99](https://github.com/shadow81627/hardingspropertyservices/commit/760fd99fa37ceff2ac31a7606688bc8f95383212))
+
 # [1.8.0](https://github.com/shadow81627/hardingspropertyservices/compare/v1.7.0...v1.8.0) (2022-11-05)
 
 
