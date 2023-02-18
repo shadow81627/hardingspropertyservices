@@ -19,6 +19,7 @@ jobs:
         uses: actions/setup-node@v2.4.1
         with:
           node-version: 16
+          cache: yarn
 
       - name: Install dependencies 👨🏻‍💻
         run: yarn install --frozen-lockfile --immutable
