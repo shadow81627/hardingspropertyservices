@@ -21,7 +21,7 @@
     "@sentry/vue": "6.18.2",
     "buffer": "6.0.3",
     "crypto-js": "4.1.1",
-    "js-base64": "3.7.2",
+    "js-base64": "3.7.5",
     "marked": "4.0.12",
     "pinia": "2.0.11"
   },
