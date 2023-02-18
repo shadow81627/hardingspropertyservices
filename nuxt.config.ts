@@ -40,12 +40,15 @@ export default defineNuxtConfig({
   // },
   image: {
     // baseUrl: CDN_URL,
-    // provider: 'imgproxy',
+    provider: 'imgproxy',
     domains: [
       'images.unsplash.com',
       's3.ap-northeast-2.wasabisys.com',
       'imgproxy.daim.dev',
     ],
+    cloudflare: {
+      baseURL: CDN_URL,
+    },
     providers: {
       imgproxy: {
         provider: '~/utils/imgproxy',
@@ -53,9 +56,6 @@ export default defineNuxtConfig({
           key: process.env.IMGPROXY_KEY,
           salt: process.env.IMGPROXY_SALT,
         },
-      },
-      cloudflare: {
-        baseURL: CDN_URL,
       },
     },
   },
