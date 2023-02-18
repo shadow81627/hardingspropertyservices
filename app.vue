@@ -33,7 +33,6 @@
 </template>
 
 <script lang="ts">
-import { withBase } from 'ufo'
 export default {
   setup() {
     const config = useRuntimeConfig()
@@ -61,7 +60,7 @@ export default {
         { name: 'theme-color', content: 'black' },
         {
           property: 'og:image',
-          content: withBase('/hardings-property-1200x600.png', config.CDN_URL),
+          content: '/hardings-property-1200x600.png',
         },
         { property: 'og:image:type', content: 'image/png' },
         { property: 'og:image:width', content: '1200' },
@@ -69,16 +68,16 @@ export default {
         { property: 'og:image:alt', content: "Harding's Property Services" },
       ],
       link: [
-        { rel: 'manifest', href: withBase('/manifest.json', config.CDN_URL) },
+        { rel: 'manifest', href: '/manifest.json' },
         {
           rel: 'icon',
           type: 'image/x-icon',
-          href: withBase('/favicon.ico', config.CDN_URL),
+          href: '/favicon.ico',
         },
         {
           rel: 'apple-touch-icon',
           type: 'image/png',
-          href: withBase('/apple-touch-icon.png', config.CDN_URL),
+          href: '/apple-touch-icon.png',
         },
       ],
     })
