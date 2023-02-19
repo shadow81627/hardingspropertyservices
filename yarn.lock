@@ -1569,32 +1569,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:@nuxt/kit-edge@latest":
-  version: 3.0.0-rc.14-27793096.fe433a4
-  resolution: "@nuxt/kit-edge@npm:3.0.0-rc.14-27793096.fe433a4"
-  dependencies:
-    "@nuxt/schema": "npm:@nuxt/schema-edge@3.0.0-rc.14-27793096.fe433a4"
-    c12: ^0.2.13
-    consola: ^2.15.3
-    defu: ^6.1.0
-    globby: ^13.1.2
-    hash-sum: ^2.0.0
-    ignore: ^5.2.0
-    jiti: ^1.16.0
-    knitwork: ^0.1.2
-    lodash.template: ^4.5.0
-    mlly: ^0.5.16
-    pathe: ^0.3.9
-    pkg-types: ^0.3.6
-    scule: ^0.3.2
-    semver: ^7.3.8
-    unctx: ^2.0.2
-    unimport: ^0.7.0
-    untyped: ^0.5.0
-  checksum: 8f855a6ac617022be27770f34f35e4a9e8bdea555365de312b0e81fc9064007bd9d9a25820aaaa6061eed5d1f097bf7fd8c2f2826697ba45b5643604d10eba74
-  languageName: node
-  linkType: hard
-
 "@nuxt/kit@npm:^3.0.0-rc.11":
   version: 3.0.0-rc.13
   resolution: "@nuxt/kit@npm:3.0.0-rc.13"
@@ -1659,26 +1633,6 @@ __metadata:
     unimport: ^2.2.4
     untyped: ^1.2.2
   checksum: 92be8e1b40097b1fab1044add5e006c0b7d699d71a63f53a706b77895f11b09968a301d82b6b5e61b8afe8234981251b4532b3ae37c9f679c80b342383e895e2
-  languageName: node
-  linkType: hard
-
-"@nuxt/schema@npm:@nuxt/schema-edge@3.0.0-rc.14-27793096.fe433a4":
-  version: 3.0.0-rc.14-27793096.fe433a4
-  resolution: "@nuxt/schema-edge@npm:3.0.0-rc.14-27793096.fe433a4"
-  dependencies:
-    c12: ^0.2.13
-    create-require: ^1.1.1
-    defu: ^6.1.0
-    jiti: ^1.16.0
-    pathe: ^0.3.9
-    pkg-types: ^0.3.6
-    postcss-import-resolver: ^2.0.0
-    scule: ^0.3.2
-    std-env: ^3.3.0
-    ufo: ^0.8.6
-    unimport: ^0.7.0
-    untyped: ^0.5.0
-  checksum: 27d1a3d36fb945b9380e8bfdcd63bf8420dec796f0ff4a0f15686d68e5596172b1818434a9e85a383aa685ee66c5a371a0532de8a8b03dadd2252cf419d2f3f7
   languageName: node
   linkType: hard
 
@@ -1792,15 +1746,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/strapi@npm:1.3.0":
-  version: 1.3.0
-  resolution: "@nuxtjs/strapi@npm:1.3.0"
+"@nuxtjs/strapi@npm:1.8.1":
+  version: 1.8.1
+  resolution: "@nuxtjs/strapi@npm:1.8.1"
   dependencies:
-    "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
-    defu: ^5.0.1
-    pathe: ^0.2.0
-    qs: ^6.10.3
-  checksum: eee3ab9fb4784999cde66ac942e0110163aa2557510b8b6455d2f0faa3de64bc8bba939fa137c44e7319d57e2565294092abac5a599c845e99a192a1abe04672
+    "@nuxt/kit": ^3.2.0
+    defu: ^6.1.2
+    graphql: ^16.6.0
+    qs: ^6.11.0
+  checksum: c2bf567082138821a2297934a0e7b517d6e144268830f0c714824509f2f311ca266d081dbb5444657cfa406cebf27fe9732a73314706964088f1cc11b59dcca1
   languageName: node
   linkType: hard
 
@@ -4658,13 +4612,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"defu@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "defu@npm:5.0.1"
-  checksum: f65556c2e8aa7789080f04c1d52fd7188d8258d9bc7f673e5bedc6be33eb6150f41844ac96aec99c798e47eb9beb97dae03c24edd73d3ddc643e4c7c72124606
-  languageName: node
-  linkType: hard
-
 "defu@npm:^6.0.0, defu@npm:^6.1.0":
   version: 6.1.0
   resolution: "defu@npm:6.1.0"
@@ -6506,6 +6453,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"graphql@npm:^16.6.0":
+  version: 16.6.0
+  resolution: "graphql@npm:16.6.0"
+  checksum: bf1d9e3c1938ce3c1a81e909bd3ead1ae4707c577f91cff1ca2eca474bfbc7873d5d7b942e1e9777ff5a8304421dba57a4b76d7a29eb19de8711cb70e3c2415e
+  languageName: node
+  linkType: hard
+
 "gzip-size@npm:^6.0.0":
   version: 6.0.0
   resolution: "gzip-size@npm:6.0.0"
@@ -6551,7 +6505,7 @@ __metadata:
     "@nuxt/image-edge": 1.0.0-27919678.2f5b64b
     "@nuxtjs/plausible": 0.2.0
     "@nuxtjs/sitemap": 2.4.0
-    "@nuxtjs/strapi": 1.3.0
+    "@nuxtjs/strapi": 1.8.1
     "@pinia/nuxt": 0.4.3
     "@sentry/tracing": 6.18.2
     "@sentry/vue": 6.18.2
@@ -9404,13 +9358,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pathe@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "pathe@npm:0.2.0"
-  checksum: 9a8149ce152088f30d15b0b03a7c128ba21f16b4dc1f3f90fe38eee9f6d0f1d6da8e4e47bd2a4f9e14aaac7c30ed01cfc86216479011de2bdc598b65e6f19f41
-  languageName: node
-  linkType: hard
-
 "pathe@npm:^0.3.8, pathe@npm:^0.3.9":
   version: 0.3.9
   resolution: "pathe@npm:0.3.9"
@@ -10065,7 +10012,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:6.11.0, qs@npm:^6.10.3":
+"qs@npm:6.11.0, qs@npm:^6.11.0":
   version: 6.11.0
   resolution: "qs@npm:6.11.0"
   dependencies:
