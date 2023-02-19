@@ -1,5 +1,12 @@
 # Releases
 
+## [1.9.3](https://github.com/shadow81627/hardingspropertyservices/compare/v1.9.2...v1.9.3) (2023-02-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency pinia to v2.0.30 ([#51](https://github.com/shadow81627/hardingspropertyservices/issues/51)) ([76881b8](https://github.com/shadow81627/hardingspropertyservices/commit/76881b8d9937c7ed1575e82170f5aa8d558f9831))
+
 ## [1.9.2](https://github.com/shadow81627/hardingspropertyservices/compare/v1.9.1...v1.9.2) (2023-02-18)
 
 
