@@ -1,5 +1,13 @@
 # Releases
 
+## [1.9.4](https://github.com/shadow81627/hardingspropertyservices/compare/v1.9.3...v1.9.4) (2023-02-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency marked to v4.2.12 ([#62](https://github.com/shadow81627/hardingspropertyservices/issues/62)) ([a6ef3a2](https://github.com/shadow81627/hardingspropertyservices/commit/a6ef3a207de4c583855063785459199f7425043b))
+* **deps:** update sentry-javascript monorepo to v7 ([#65](https://github.com/shadow81627/hardingspropertyservices/issues/65)) ([6bff7df](https://github.com/shadow81627/hardingspropertyservices/commit/6bff7dfa3b7707fcc764dfcd36f391c6abde509e))
+
 ## [1.9.3](https://github.com/shadow81627/hardingspropertyservices/compare/v1.9.2...v1.9.3) (2023-02-19)
 
 
