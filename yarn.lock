@@ -2837,7 +2837,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/devtools-api@npm:^6.0.0-beta.21, @vue/devtools-api@npm:^6.4.4, @vue/devtools-api@npm:^6.4.5":
+"@vue/devtools-api@npm:^6.4.4, @vue/devtools-api@npm:^6.4.5":
   version: 6.4.5
   resolution: "@vue/devtools-api@npm:6.4.5"
   checksum: 40c5adc8788cb283972ce09ba7ce105fa894f4decec9168829cc8e6211462763402442e6c31be76f9da62b0e74ae724971b924571367b4ac89b94dc6894e2d07
@@ -6528,7 +6528,7 @@ __metadata:
     miniflare: 2.3.0
     nuxt: 3.2.2
     nuxt-lodash: 2.4.1
-    pinia: 2.0.11
+    pinia: 2.0.30
     prettier: 2.8.4
     typescript: 4.5.5
   languageName: unknown
@@ -9407,11 +9407,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pinia@npm:2.0.11":
-  version: 2.0.11
-  resolution: "pinia@npm:2.0.11"
+"pinia@npm:2.0.30":
+  version: 2.0.30
+  resolution: "pinia@npm:2.0.30"
   dependencies:
-    "@vue/devtools-api": ^6.0.0-beta.21
+    "@vue/devtools-api": ^6.4.5
     vue-demi: "*"
   peerDependencies:
     "@vue/composition-api": ^1.4.0
@@ -9422,7 +9422,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 8cce95b07baae4558d60d51b59e34635c95bb333f7898462aee4d0c7b92b2b40f8c666f24dc4c2572739b5813f6dd148b1e48cf02fb0f6a047dae4b803fd731f
+  checksum: 2522d3700e2d23f184ae65c36d764973ae4680e2fefbc7ca808524c706f5988ced1633606bfedae8c2a44042026528bac105a9437764d026d6323ddc40610e89
   languageName: node
   linkType: hard
 
