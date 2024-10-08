@@ -1037,12 +1037,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify-json/twemoji@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@iconify-json/twemoji@npm:1.0.2"
+"@iconify-json/twemoji@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@iconify-json/twemoji@npm:1.2.1"
   dependencies:
-    "@iconify/types": ^1.0.10
-  checksum: 2db0ecfcb92ee7007f0878b1b74bb83ed97103a871ba2b7587c753cd84b50f751465ebb7ec6e757e8cf06e5a77f2d3c7dd39ea73a072ccbb4cda08528a0fe379
+    "@iconify/types": "*"
+  checksum: e1cabd21ceda90f972821c7846b9b6d6212543164d4fb06ee76c3742cf25b0612d77a6bf9eeddec07a80b025b63331ff32e90af5a74b5e8122431c210c2e5cbf
+  languageName: node
+  linkType: hard
+
+"@iconify/types@npm:*, @iconify/types@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@iconify/types@npm:2.0.0"
+  checksum: 029f58542c160e9d4a746869cf2e475b603424d3adf3994c5cc8d0406c47e6e04a3b898b2707840c1c5b9bd5563a1660a34b110d89fce43923baca5222f4e597
   languageName: node
   linkType: hard
 
@@ -1050,13 +1057,6 @@ __metadata:
   version: 1.1.0
   resolution: "@iconify/types@npm:1.1.0"
   checksum: beffcdbf14e879ff74e79ac29ea0f4f4874f9df632f1994d97395b3f05cbeebaf10f1abc73cf850dc7444924cd57ed92e0e2ca55bacfe3374eff7542d489fbd0
-  languageName: node
-  linkType: hard
-
-"@iconify/types@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@iconify/types@npm:2.0.0"
-  checksum: 029f58542c160e9d4a746869cf2e475b603424d3adf3994c5cc8d0406c47e6e04a3b898b2707840c1c5b9bd5563a1660a34b110d89fce43923baca5222f4e597
   languageName: node
   linkType: hard
 
@@ -6207,7 +6207,7 @@ __metadata:
     "@antfu/eslint-config": 0.35.2
     "@formkit/nuxt": 1.0.0-beta.15
     "@iconify-json/carbon": 1.0.15
-    "@iconify-json/twemoji": 1.0.2
+    "@iconify-json/twemoji": 1.2.1
     "@lhci/cli": 0.9.0
     "@nuxt/image-edge": 1.0.0-27919678.2f5b64b
     "@nuxtjs/plausible": 0.2.0

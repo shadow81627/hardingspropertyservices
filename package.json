@@ -28,7 +28,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "0.35.2",
     "@iconify-json/carbon": "1.0.15",
-    "@iconify-json/twemoji": "1.0.2",
+    "@iconify-json/twemoji": "1.2.1",
     "@nuxt/image-edge": "1.0.0-27919678.2f5b64b",
     "@nuxtjs/strapi": "1.8.1",
     "@pinia/nuxt": "0.4.6",
