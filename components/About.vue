@@ -48,7 +48,7 @@
         </a>
       </span>
 
-      <div class="w-[65ch] text-pretty flex flex-col gap-4">
+      <div class="max-w-[65ch] text-pretty flex flex-col gap-4">
         <p>
           Wayne Harding has a lifelong passion for landscaping. He enjoys doing
           gardening in his own home, and has worked professionally in this area

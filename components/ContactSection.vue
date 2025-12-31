@@ -18,7 +18,7 @@
       section-bg
     >
       <h2 class="font-semibold text-3xl">Books are closed</h2>
-      <div class="w-[65ch] text-pretty flex flex-col gap-4">
+      <div class="max-w-[65ch] text-pretty flex flex-col gap-4">
         <p>
           Thank you to everyone for your recent enquiries. Unfortunately
           Harding's Property Services can not take on any more work for the
