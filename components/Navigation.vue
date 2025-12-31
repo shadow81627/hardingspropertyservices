@@ -12,7 +12,6 @@
       </div>
       <div flex justify-between>
         <span inline-flex items-center p-2>ABN 53 351 269 695</span>
-        <DarkToggle px-2 />
       </div>
     </div>
   </nav>
