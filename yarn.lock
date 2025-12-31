@@ -1580,18 +1580,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/plausible@npm:0.2.0":
-  version: 0.2.0
-  resolution: "@nuxtjs/plausible@npm:0.2.0"
-  dependencies:
-    "@nuxt/kit": ^3.0.0
-    defu: ^6.1.1
-    pathe: ^1.0.0
-    plausible-tracker: ^0.3.8
-  checksum: 68143cd45d018bd93d95c7a5a5f1103bee309b23d3c6336131fb26508c24d9524efc2548156c22e51a0f93efb4590e1f0d681a257696541d9bfc2a63babddaf3
-  languageName: node
-  linkType: hard
-
 "@nuxtjs/sitemap@npm:2.4.0":
   version: 2.4.0
   resolution: "@nuxtjs/sitemap@npm:2.4.0"
@@ -1606,28 +1594,6 @@ __metadata:
     minimatch: ^3.0.4
     sitemap: ^4.1.1
   checksum: 7deb9e4dee977ca69142131e5b442e8d6b0f139253c9bd9c25bfbe27d418bf979cf9bce3f1a3b6e1d3426bdd1dbf9ac5e416f270307969da66b0e079c8f7e642
-  languageName: node
-  linkType: hard
-
-"@nuxtjs/strapi@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@nuxtjs/strapi@npm:1.8.1"
-  dependencies:
-    "@nuxt/kit": ^3.2.0
-    defu: ^6.1.2
-    graphql: ^16.6.0
-    qs: ^6.11.0
-  checksum: c2bf567082138821a2297934a0e7b517d6e144268830f0c714824509f2f311ca266d081dbb5444657cfa406cebf27fe9732a73314706964088f1cc11b59dcca1
-  languageName: node
-  linkType: hard
-
-"@pinia/nuxt@npm:0.4.6":
-  version: 0.4.6
-  resolution: "@pinia/nuxt@npm:0.4.6"
-  dependencies:
-    "@nuxt/kit": ^3.0.0
-    pinia: ">=2.0.27"
-  checksum: 570a918695922ee38b7ae741f0eac96a33917f251d112c83e4a2486cc768bf257825a6e497d7bd7852122a7afa42d4d8e3e79438497b8fa76f9cf50a89ecb73c
   languageName: node
   linkType: hard
 
@@ -6160,13 +6126,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:^16.6.0":
-  version: 16.6.0
-  resolution: "graphql@npm:16.6.0"
-  checksum: bf1d9e3c1938ce3c1a81e909bd3ead1ae4707c577f91cff1ca2eca474bfbc7873d5d7b942e1e9777ff5a8304421dba57a4b76d7a29eb19de8711cb70e3c2415e
-  languageName: node
-  linkType: hard
-
 "gzip-size@npm:^6.0.0":
   version: 6.0.0
   resolution: "gzip-size@npm:6.0.0"
@@ -6210,10 +6169,7 @@ __metadata:
     "@iconify-json/twemoji": 1.0.2
     "@lhci/cli": 0.9.0
     "@nuxt/image-edge": 1.0.0-27919678.2f5b64b
-    "@nuxtjs/plausible": 0.2.0
     "@nuxtjs/sitemap": 2.4.0
-    "@nuxtjs/strapi": 1.8.1
-    "@pinia/nuxt": 0.4.6
     "@sentry/tracing": 7.38.0
     "@sentry/vue": 7.38.0
     "@types/crypto-js": 4.1.1
@@ -6231,11 +6187,9 @@ __metadata:
     eslint-plugin-prettier: 4.2.1
     eslint-plugin-vue: 8.5.0
     js-base64: 3.7.5
-    marked: 4.2.12
     miniflare: 2.3.0
     nuxt: 3.2.2
     nuxt-lodash: 2.4.1
-    pinia: 2.0.30
     prettier: 2.8.4
     typescript: 4.9.5
   languageName: unknown
@@ -7785,15 +7739,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:4.2.12":
-  version: 4.2.12
-  resolution: "marked@npm:4.2.12"
-  bin:
-    marked: bin/marked.js
-  checksum: bd551cd61028ee639d4ca2ccdfcc5a6ba4227c1b143c4538f3cde27f569dcb57df8e6313560394645b418b84a7336c07ab1e438b89b6324c29d7d8cdd3102d63
-  languageName: node
-  linkType: hard
-
 "marky@npm:^1.2.0, marky@npm:^1.2.2":
   version: 1.2.5
   resolution: "marky@npm:1.2.5"
@@ -9077,25 +9022,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pinia@npm:2.0.30, pinia@npm:>=2.0.27":
-  version: 2.0.30
-  resolution: "pinia@npm:2.0.30"
-  dependencies:
-    "@vue/devtools-api": ^6.4.5
-    vue-demi: "*"
-  peerDependencies:
-    "@vue/composition-api": ^1.4.0
-    typescript: ">=4.4.4"
-    vue: ^2.6.14 || ^3.2.0
-  peerDependenciesMeta:
-    "@vue/composition-api":
-      optional: true
-    typescript:
-      optional: true
-  checksum: 2522d3700e2d23f184ae65c36d764973ae4680e2fefbc7ca808524c706f5988ced1633606bfedae8c2a44042026528bac105a9437764d026d6323ddc40610e89
-  languageName: node
-  linkType: hard
-
 "pkg-types@npm:^1.0.1, pkg-types@npm:^1.0.2":
   version: 1.0.2
   resolution: "pkg-types@npm:1.0.2"
@@ -9104,13 +9030,6 @@ __metadata:
     mlly: ^1.1.1
     pathe: ^1.1.0
   checksum: 2d0a70c1721c2ebbe075b912531a4f43136e6658fdcc59dc76c39966201ab5ddf265868d1211943183406d4b70d373c17e3b176487bc2020ea737d030b0fd080
-  languageName: node
-  linkType: hard
-
-"plausible-tracker@npm:^0.3.8":
-  version: 0.3.8
-  resolution: "plausible-tracker@npm:0.3.8"
-  checksum: 066dd51586922fabbd70e4cfdeff77356669bf57852cd3cbc00d813938ed6637669ee615a1d7b865090550de61fc58bffb6e7c3e6d99f361ec7312d316033194
   languageName: node
   linkType: hard
 
@@ -9641,7 +9560,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:6.11.0, qs@npm:^6.11.0":
+"qs@npm:6.11.0":
   version: 6.11.0
   resolution: "qs@npm:6.11.0"
   dependencies:

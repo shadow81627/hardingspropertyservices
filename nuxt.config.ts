@@ -11,25 +11,14 @@ export default defineNuxtConfig({
       APP_NAME,
       CDN_URL,
       BASE_URL,
-      STRAPI_URL: process.env.STRAPI_URL ?? 'https://strapi.daim.dev',
-      plausible: {
-        domain:
-          process.env.PLAUSIBLE_DOMAIN ?? 'www.hardingspropertyservices.com',
-        apiHost: process.env.PLAUSIBLE_API_HOST ?? 'https://plausible.daim.dev',
-      },
-      IMGPROXY_KEY: process.env.IMGPROXY_KEY,
-      IMGPROXY_SALT: process.env.IMGPROXY_SALT,
     },
   },
   modules: [
-    '@nuxtjs/plausible',
     '@formkit/nuxt',
     // '@nuxtjs/sitemap',
     '@nuxt/image-edge',
     '@vueuse/nuxt',
     '@unocss/nuxt',
-    '@pinia/nuxt',
-    // '@nuxtjs/strapi',
     'nuxt-lodash',
   ],
   // sitemap: {
@@ -40,7 +29,7 @@ export default defineNuxtConfig({
   // },
   image: {
     // baseUrl: CDN_URL,
-    provider: 'imgproxy',
+    // provider: 'imgproxy',
     domains: [
       'images.unsplash.com',
       's3.ap-northeast-2.wasabisys.com',
@@ -48,15 +37,6 @@ export default defineNuxtConfig({
     ],
     cloudflare: {
       baseURL: CDN_URL,
-    },
-    providers: {
-      imgproxy: {
-        provider: '~/utils/imgproxy',
-        options: {
-          key: process.env.IMGPROXY_KEY,
-          salt: process.env.IMGPROXY_SALT,
-        },
-      },
     },
   },
   vite: {
