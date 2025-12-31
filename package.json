@@ -38,7 +38,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-nuxt": "4.0.0",
     "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-vue": "8.5.0",
+    "eslint-plugin-vue": "8.7.1",
     "miniflare": "2.3.0",
     "nuxt": "3.2.2",
     "nuxt-lodash": "2.4.1",
