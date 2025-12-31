@@ -4,7 +4,7 @@
       flex
       flex-wrap
       justify-between
-      flex-col
+      gap-8
       text-left
       p-8
       mx-auto
@@ -48,79 +48,66 @@
         </a>
       </span>
 
-      <div v-if="content" v-html="content.paragraph1"></div>
-
-      <div class="pt-4">
-        <p itemprop="areaServed" itemscope itemtype="https://schema.org/City">
-          Wayne provides a range of property services to
-          <span itemprop="name">Beaudesert</span> and surrounding areas:
+      <div class="w-[65ch] text-pretty flex flex-col gap-4">
+        <p>
+          Wayne Harding has a lifelong passion for landscaping. He enjoys doing
+          gardening in his own home, and has worked professionally in this area
+          for over 30 years.
+        </p>
+        <p>
+          After decades of working various building, mowing, turfing and
+          hardware jobs, he has decided to use this knowledge to branch out and
+          grow his own business.
         </p>
       </div>
 
-      <ul
-        v-if="content"
-        class="list-disc list-inside py-2 flex justify-between flex-wrap"
-        itemprop="hasOfferCatalog"
-        itemscope
-        itemtype="https://schema.org/OfferCatalog"
-      >
-        <li
-          v-for="service of content.services"
-          :key="service.name"
-          class="md:px-2 py-2 flex-auto w-full md:w-auto"
-          itemprop="itemListElement"
+      <div class="flex flex-col gap-4">
+        <ul
+          v-if="content"
+          class="list-inside flex flex-col justify-between flex-wrap"
+          itemprop="hasOfferCatalog"
           itemscope
-          itemtype="https://schema.org/Offer"
+          itemtype="https://schema.org/OfferCatalog"
         >
-          <span
-            itemprop="itemOffered"
+          <li
+            v-for="service of content.services"
+            :key="service.name"
+            class="w-full md:w-auto"
+            itemprop="itemListElement"
             itemscope
-            itemtype="https://schema.org/Service"
+            itemtype="https://schema.org/Offer"
           >
-            <span itemprop="name">{{ service.name }}</span>
-          </span>
-        </li>
-      </ul>
-      <div v-if="content" v-html="content.paragraph2"></div>
+            🌿
+            <span
+              itemprop="itemOffered"
+              itemscope
+              itemtype="https://schema.org/Service"
+            >
+              <span itemprop="name">{{ service.name }}</span>
+            </span>
+          </li>
+        </ul>
+
+        <p itemprop="areaServed" itemscope itemtype="https://schema.org/City">
+          Servicing
+          <span itemprop="name">Beaudesert</span> and surrounding areas.
+        </p>
+      </div>
     </div>
   </section>
 </template>
 
 <script lang="ts">
-import type { Strapi4Response } from '@nuxtjs/strapi'
-import { marked } from 'marked'
 export default {
   async setup() {
-    const config = useRuntimeConfig()
-    function transform(content: Strapi4Response) {
-      try {
-        const paragraph1 = marked.parse(content?.data?.attributes?.paragraph1)
-        const paragraph2 = marked.parse(content?.data?.attributes?.paragraph2)
-        const services = content?.data?.attributes?.services?.data.map(
-          ({ attributes: { name } }) => ({
-            name,
-          }),
-        )
-        return {
-          paragraph1,
-          paragraph2,
-          services,
-        }
-      } catch (error) {
-        console.error(error)
-      }
-    }
-    const { data: content } = await useFetch<Strapi4Response>('/api/about', {
-      baseURL: config.STRAPI_URL,
-      params: {
-        'populate[0]': 'services',
-        t: 1648607183585,
-      },
-      server: true,
-      transform,
-    })
     return {
-      content: content ?? {},
+      content: {
+        services: [
+          { name: 'Lawn mowing' },
+          { name: 'Rubbish removal' },
+          { name: 'Gutter cleaning' },
+        ],
+      },
     }
   },
 }
