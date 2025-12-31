@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.35.2",
-    "@iconify-json/carbon": "1.0.15",
+    "@iconify-json/carbon": "1.2.15",
     "@iconify-json/twemoji": "1.0.2",
     "@nuxt/image-edge": "1.0.0-27919678.2f5b64b",
     "@types/crypto-js": "4.1.1",
