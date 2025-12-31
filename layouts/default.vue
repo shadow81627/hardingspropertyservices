@@ -16,10 +16,22 @@
       >
         <slot />
       </main>
-      <footer>
-        <SocialLinks />
-        <div class="text-center lg:text-left text-white">
-          <div class="text-center p-6">
+      <footer
+        class="relative w-full flex flex-wrap items-center justify-between rounded-none mt-24 py-3"
+        section-bg
+      >
+        <div class="flex gap-4 flex-wrap px-5">
+          <img
+            src="/hardings-property.svg"
+            height="40"
+            class="h-10"
+            alt="Harding's Property Services"
+          />
+          <SocialLinks />
+        </div>
+
+        <div class="text-center lg:text-left">
+          <div class="text-center px-5">
             <small>
               <a href="https://daim.dev" target="__blank"
                 >Site by Daim Digital</a

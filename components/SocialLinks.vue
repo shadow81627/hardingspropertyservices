@@ -1,5 +1,5 @@
 <template>
-  <div m-5 flex justify-center gap-3>
+  <div flex justify-center gap-3>
     <a
       i-carbon-logo-instagram
       href="https://www.instagram.com/hardingspropertyservices/"
@@ -7,7 +7,6 @@
       aria-label="Instagram"
       title="Instagram"
       text-3xl
-      text-white
     />
     <a
       i-carbon-logo-facebook
@@ -16,7 +15,6 @@
       aria-label="Facebook"
       title="Facebook"
       text-3xl
-      text-white
     />
     <a
       i-carbon-logo-google
@@ -25,7 +23,6 @@
       aria-label="Google"
       title="Google"
       text-3xl
-      text-white
     />
   </div>
 </template>
