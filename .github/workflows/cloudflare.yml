@@ -34,8 +34,6 @@ jobs:
         run: yarn build
         env:
           NITRO_PRESET: cloudflare
-          IMGPROXY_KEY: ${{ secrets.IMGPROXY_KEY }}
-          IMGPROXY_SALT: ${{ secrets.IMGPROXY_SALT }}
           CDN_URL: https://hardingspropertyservices.pages.dev
 
       - name: Publish to Cloudflare

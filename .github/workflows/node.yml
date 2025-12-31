@@ -18,7 +18,7 @@ jobs:
       - name: Setup node env 🏗
         uses: actions/setup-node@v3.6.0
         with:
-          node-version: 16
+          node-version: 22
           cache: yarn
 
       - name: Install dependencies 👨🏻‍💻
@@ -31,8 +31,6 @@ jobs:
         run: yarn run generate
         env:
           NITRO_PRESET: cloudflare_pages
-          IMGPROXY_KEY: ${{ secrets.IMGPROXY_KEY }}
-          IMGPROXY_SALT: ${{ secrets.IMGPROXY_SALT }}
 
       # - name: Test 🧪
       #   run: yarn run test
